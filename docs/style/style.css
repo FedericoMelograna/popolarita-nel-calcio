@@ -1,0 +1,79 @@
+body{font-size:13pt;font-family:georgia;line-height:21pt;margin:0 0 -20px!important}
+hr{width:80%;height:1px;border:0 none;border-bottom:1px dashed #0F2850}
+.c2 hr{border-bottom:1px dashed #fff}
+h1,h2,h3{font-family:"Palatino Linotype","Book Antiqua",serif;font-weight:700}
+h1{font-size:30pt}
+h2{font-size:23pt}
+h3{font-size:18pt}
+td{height:30px;font-family:helvetica;font-size:11pt}
+div#content{max-width:100%;margin:auto;background:#0F2850;margin-left:0!important;margin-right:0!important}
+div.c1,div.c2{padding:20px;text-align:justify}
+@media screen and (min-width: 1200px) {
+div.c1 > div,div.c2 > div{width:60%;margin:auto}
+}
+@media screen and (max-width: 1200px) {
+div.c1 > div,div.c2 > div{width:80%;margin:auto}
+}
+@media screen and (max-width: 900px) {
+div.c1 > div,div.c2 > div{width:100%;margin:auto}
+}
+div.c1{color:#0F2850;background:#FFF}
+div.c1 a{color:#000}
+div.c2{background:transparent;color:#fff}
+div.c2 a{color:#fff}
+div.c1 table.tabletext{width:100%;color:#0F2850;border-spacing:0}
+div.c1 table.tabletext tr{background:#ffffff00}
+div.c1 table.tabletext td{padding:3px;border-bottom:1px solid #0F2850}
+div.c2 table.tabletext{width:100%;color:#fff;border-spacing:0}
+div.c2 table.tabletext tr{background:#ffffff00}
+div.c2 table.tabletext td{padding:3px;border-bottom:1px solid #fff}
+div#title{text-align:center;height:255px; background: url(../imgs/background.png); height:536px; background-repeat: no-repeat}
+#article, #method {margin-top: -250px}
+.c1 h2,.c2 h2{text-align:center;margin:auto;margin-bottom:15px}
+ul.horiz_menu,ul.horiz_menu li{margin:0;padding:0;text-indent:0;overflow:hidden}
+ul.horiz_menu li{display:inline;padding-right:20px}
+ul.horiz_menu li div{display:inline-block;width:160px;height:40px;line-height:40px;border-radius:15px;text-align:center}
+.clicked{background-color:#fff}
+.not_clicked{background-color:#a1a1a1}
+ul.horiz_menu li div#method_a:hover,ul.horiz_menu li div#article_a:hover{background:#fff;-webkit-transition:background .3s ease-out;-moz-transition:background .3s ease-out;-o-transition:background .3s ease-out;transition:background .3s ease-out}
+ul.horiz_menu li a,ul.horiz_menu li a:visited{color:#0F2850;text-decoration:none;text-transform:uppercase;font-size:15px;font-weight:700;display:block;height:100%;width:100%;border-radius:15px}
+.logo_social img{height:25px;width:auto;border-radius:5px}
+.logo_social{line-height:25px;display:flex}
+.logo_social span{margin-left:7px}
+#w{display:block;width:800px;margin:0 auto;padding-top:30px}
+#search_box_results{display:block;width:100%;padding:25px 20px;padding-bottom:35px}
+#searchfield{display:block;width:100%;text-align:center;margin-bottom:35px}
+#searchfield form{display:inline-block;background:#eeefed;padding:0;margin:0;padding:5px;border-radius:3px;margin:5px 0 0 0}
+#searchfield form .biginput{width:600px;height:40px;padding:0 10px;background-color:#fff;border:1px solid #c8c8c8;border-radius:3px;color:#aeaeae;font-weight:400;font-size:1.2em;-webkit-transition:all .2s linear;-moz-transition:all .2s linear;transition:all .2s linear}
+#searchfield form .biginput:focus{color:#858585}
+.flatbtn{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;display:inline-block;outline:0;border:0;color:#f3faef;text-decoration:none;background-color:#6bb642;border-color:rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);font-size:1.2em;font-weight:700;padding:12px 22px;line-height:normal;text-align:center;vertical-align:middle;cursor:pointer;text-transform:uppercase;text-shadow:0 1px 0 rgba(0,0,0,0.3);-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 1px 0 rgba(15,15,15,0.3);-moz-box-shadow:0 1px 0 rgba(15,15,15,0.3);box-shadow:0 1px 0 rgba(15,15,15,0.3)}
+.flatbtn:hover{color:#fff;background-color:#73c437}
+.flatbtn:active{-webkit-box-shadow:inset 0 1px 5px rgba(0,0,0,0.1);-moz-box-shadow:inset 0 1px 5px rgba(0,0,0,0.1);box-shadow:inset 0 1px 5px rgba(0,0,0,0.1)}
+.autocomplete-suggestions{border:1px solid #999;background:#fff;cursor:default;overflow:auto}
+.autocomplete-suggestion{padding:10px 5px;font-size:1.2em;white-space:nowrap;overflow:hidden}
+.autocomplete-selected{background:#f0f0f0}
+.autocomplete-suggestions strong{font-weight:400;color:#39f}
+div#player_box{background:#eeefed;padding:5px;width:800px;height:520px;margin:auto;text-align:center;border-radius:5px}
+div#player_box2{height:518px;background:#fff;border:1px solid #c8c8c8;border-radius:5px}
+div#player_box span{border-radius:20px;color:#0F2850}
+span#nome{font-size:20pt}
+span#ruolo,span#squadra{font-size:13pt}
+span#ipop{color:#fff!important}
+a#ipopa{font-size:17pt;background:#0F2850;color:#fff;height:40px;width:40px;display:inline-block;line-height:40px;border-radius:100%;text-align:center}
+div#immagine img{border-radius:10px}
+.clicked1, .not_clicked1 {cursor: pointer}
+.clicked1{background-color:#fff}
+.not_clicked1{background-color:#b5b5b5}
+ul.horiz_menu1,ul.horiz_menu1 li{margin:0;padding:0;text-indent:0;overflow:hidden}
+ul.horiz_menu1 li{display:inline;padding-right:5px}
+ul.horiz_menu1 li div{display:inline-block;width:100px;height:35px;line-height:35px;border-radius:10px;text-align:center; border: 1px solid #909090}
+ul.horiz_menu1 li div#Internazionale_button:hover,ul.horiz_menu1 li div#Italia_button:hover,ul.horiz_menu1 li div#Francia_button:hover,ul.horiz_menu1 li div#Spagna_button:hover,ul.horiz_menu1 li div#Germania_button:hover,ul.horiz_menu1 li div#Inghilterra_button:hover{background:#fff;-webkit-transition:background .3s ease-out;-moz-transition:background .3s ease-out;-o-transition:background .3s ease-out;transition:background .3s ease-out}
+ul.horiz_menu1 li a,ul.horiz_menu1 li a:visited{color:#0F2850;text-decoration:none;font-family:helvetica;font-size:13px;display:block;height:100%;width:100%;border-radius:15px}
+.clicked2, .not_clicked2{cursor: pointer}
+.clicked2{background-color:#fff}
+.not_clicked2{background-color:#b5b5b5}
+ul.horiz_menu2,ul.horiz_menu2 li{margin:0;padding:0;text-indent:0;overflow:hidden}
+ul.horiz_menu2 li{display:inline;padding-right:5px}
+ul.horiz_menu2 li div{display:inline-block;width:100px;height:35px;line-height:35px;border-radius:10px;text-align:center; border: 1px solid #909090}
+ul.horiz_menu2 li div#BPInternazionale_button2:hover,ul.horiz_menu2 li div#BPItalia_button2:hover,ul.horiz_menu2 li div#BPFrancia_button2:hover,ul.horiz_menu2 li div#BPSpagna_button2:hover,ul.horiz_menu2 li div#BPGermania_button2:hover,ul.horiz_menu2 li div#BPInghilterra_button2:hover{background:#fff;-webkit-transition:background .3s ease-out;-moz-transition:background .3s ease-out;-o-transition:background .3s ease-out;transition:background .3s ease-out}
+ul.horiz_menu2 li a,ul.horiz_menu2 li a:visited{color:#0F2850;text-decoration:none;font-family:helvetica;font-size:13px;display:block;height:100%;width:100%;border-radius:15px}

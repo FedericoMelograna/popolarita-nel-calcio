@@ -1,0 +1,501 @@
+<html>
+    <head>
+        <!-- SCRIPT JS -->
+        <script type="text/javascript" src="js/article-methodology.js"></script>
+        <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+        <script type="text/javascript" src="js/jquery.autocomplete.min.js"></script>
+        <script src="js/chart.bundle.js"></script>   
+        <script src="js/chart.bundle.min.js"></script>     
+        <script src="js/chart.js"></script>   
+        <script src="js/chart.min.js"></script>
+        <script src="js/functions.js"></script>         
+        <!-- SCRIPT CSS -->
+        <link rel="stylesheet" type="text/css" href="style/style.css">
+    </head>
+    <body>
+        <div id='content'>
+            <div id='wline'></div>
+            <!--   CORPO DEL TESTO    -->
+            <div class='c2' id='title'>
+            <div id='topbar'></div>
+                <div>
+                    <h1>HALL OF FAME</h1>
+                    <h2>Uno studio sulla popolarità dei calciatori</h2>
+                    <hr>
+                    <p style='font-size:11pt; text-transform:uppercase; font-family:"Palatino Linotype", "Book Antiqua", serif;'>Di <b>Anna Giabelli, Fabio Marigo, Letizia Mandelli</b>
+                    </p>
+                    <ul class='horiz_menu'>
+                        <li>
+                            <div id="method_a" class='clicked' ><a href='#' onclick="Article()">Articolo</a></div>
+                        </li>
+                        <li>
+                            <div id="article_a" class='not_clicked'><a href='#' onclick="Method()">Metodologia</a></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id='article'>
+                <div class='c2'>
+                    <div>
+                        <h2>Un caso studio: CR7 alla Juve</h2>
+                        <hr>
+                        <p>Il 10 luglio 2018 Cristiano Ronaldo firma il contratto con la Juventus. Il passaggio del fenomeno portoghese dal Real Madrid alla squadra torinese è una manovra che "mira ad accrescere la forza economica del club e a moltiplicare le dita e gli occhi puntati sugli account bianconeri. Ronaldo rappresenta, infatti, una superstar commerciabile, il prototipo del giocatore che la Juventus cercherà anche in futuro sul mercato"[1].</p>
+                        <p>
+                            Effettivamente, dall'estate scorsa l'attenzione ai social bianconeri ha subito un notevole incremento[2], come dimostrato dai numeri:
+                        </p>
+                        <table class='tabletext'>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <div class='logo_social'><img src='./imgs/facebook.png'> <span> <b>Facebook</b></span></div>
+                                </td>
+                                <td>
+                                    <div class='logo_social'><img src='./imgs/instagram.png'> <span> <b>Instagram</b></span></div>
+                                </td>
+                                <td>
+                                    <div class='logo_social'><img src='./imgs/twitter.png'> <span> <b>Twitter</b></span></div>
+                                </td>
+                                <td><b>Fan totali</b></td>
+                            </tr>
+                            <tr>
+                                <td><b>11 luglio 2018</b></td>
+                                <td>32.99 Mln</td>
+                                <td>11.17 Mln</td>
+                                <td>6.16 Mln</td>
+                                <td><b>50.32 Mln</b></td>
+                            </tr>
+                            <tr>
+                                <td><b>1 gennaio 2019</b></td>
+                                <td>36.07 Mln</td>
+                                <td>20.33 Mln</td>
+                                <td>6.40 Mln</td>
+                                <td><b>62.9 Mln</b></td>
+                            </tr>
+                            <tr>
+                                <td><b>Incremento Juve</td>
+                                <td>+3.08 Mln (+9.33%)</td>
+                                <td>+9.16 Mln (+82.01%)</td>
+                                <td>+0.24 Mln (+3.89%)</td>
+                                <td><b>+12.58 Mln (+25%)</b></td>
+                            </tr>
+                        </table>
+                        <p>Le variazioni potrebbero non sembrare dati "incredibili" - il numero di followers sui social è normalmente crescente nel tempo - ma stupiscono in particolare l'incremento che ha subito Instagram (social in crescita esponenziale da mesi[3]) e il confronto con le variazioni di altri club, come ad esempio il Barcellona:</p>
+                        <table class='tabletext'>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <div class='logo_social'><img src='./imgs/facebook.png'> <span> <b>Facebook</b></span></div>
+                                </td>
+                                <td>
+                                    <div class='logo_social'><img src='./imgs/instagram.png'> <span> <b>Instagram</b></span></div>
+                                </td>
+                                <td>
+                                    <div class='logo_social'><img src='./imgs/twitter.png'> <span> <b>Twitter</b></span></div>
+                                </td>
+                                <td><b>Fan totali</b></td>
+                            </tr>
+                            <tr>
+                                <td><b>11 luglio 2018</b></td>
+                                <td>102.64 Mln</td>
+                                <td>58.5 Mln</td>
+                                <td>28.8 Mln</td>
+                                <td><b>189.94 Mln</b></td>
+                            </tr>
+                            <tr>
+                                <td><b>1 gennaio 2019</b></td>
+                                <td>102.67 Mln</td>
+                                <td>63.71 Mln</td>
+                                <td>28.98 Mln</td>
+                                <td><b>195.36 Mln</b></td>
+                            </tr>
+                            <tr>
+                                <td><b>Incremento Barça</b></td>
+                                <td>+0.03 Mln (+0.03%)</td>
+                                <td>+5.21 Mln (+8.91%)</td>
+                                <td>+0.18 Mln (+0.62%)</td>
+                                <td><b>+5.42 Mln (+0.03%)</b></td>
+                            </tr>
+                        </table>
+                        <p>Restringendo la visuale sulla Serie A, è evidente come la Juventus abbia un grande vantaggio nei social:</p>
+                        <table class='tabletext'>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <div class='logo_social'><img src='./imgs/facebook.png'> <span> <b>Facebook</b></span></div>
+                                </td>
+                                <td>
+                                    <div class='logo_social'><img src='./imgs/instagram.png'> <span> <b>Instagram</b></span></div>
+                                </td>
+                                <td>
+                                    <div class='logo_social'><img src='./imgs/twitter.png'> <span> <b>Twitter</b></span></div>
+                                </td>
+                                <td><b>Fan totali</b></td>
+                            </tr>
+                            <tr>
+                                <td width='210px'>
+                                    <div class='logo_social'><img src='./imgs/juventus.png'> <span> <b>Juventus</b></span></div>
+                                </td>
+                                <td>36.07 Mln</td>
+                                <td>20.43 Mln</td>
+                                <td>6.40 Mln</td>
+                                <td><b>62.9 Mln</b></td>
+                            </tr>
+                            <tr>
+                                <td width='210px'>
+                                    <div class='logo_social'><img src='./imgs/milan.png'> <span> <b>Milan</b></span></div>
+                                </td>
+                                <td>24.80 Mln</td>
+                                <td>5.19 Mln</td>
+                                <td>6.71 Mln</td>
+                                <td><b>36.7 Mln</b></td>
+                            </tr>
+                            <tr>
+                                <td width='210px'>
+                                    <div class='logo_social'><img src='./imgs/inter.png'> <span> <b>Inter</b></span></div>
+                                </td>
+                                <td>11.31 Mln</td>
+                                <td>2.44 Mln</td>
+                                <td>1.62 Mln</td>
+                                <td><b>15.37 Mln</b></td>
+                            </tr>
+                            <tr>
+                                <td width='210px'>
+                                    <div class='logo_social'><img src='./imgs/roma.png'> <span> <b>Roma</b></span></div>
+                                </td>
+                                <td>9.41 Mln</td>
+                                <td>2.20 Mln</td>
+                                <td>1.73 Mln</td>
+                                <td><b>13.34 Mln</b></td>
+                            </tr>
+                            <tr>
+                                <td width='210px'>
+                                    <div class='logo_social'><img src='./imgs/napoli.png'> <span> <b>Napoli</b></span></div>
+                                </td>
+                                <td>4.16 Mln</td>
+                                <td>1.28 Mln</td>
+                                <td>1.40 Mln</td>
+                                <td><b>6.84 Mln</b></td>
+                            </tr>
+                        </table>
+                        <p>
+                            Gli account social delle società di calcio e dei calciatori hanno al giorno d'oggi un valore economico, una capacità di attrarre sponsor e investimenti. Lo confermano il recente rinnovo dell'Adidas: "In riconoscimento dell’eccellente performance della partnership a livello commerciale e di accresciuta visibilità del brand Juventus nel 2018, Adidas ha riconosciuto un bonus addizionale di € 15 milioni che verrà corrisposto prima del 31 dicembre 2018"[4] e l'incremento del valore del contratto con la stessa Adidas (+9 Mln stagionali)[5]. La presenza di legami tra il pubblico e i giocatori possibile grazie ai social media e dettata da un valore emotivo, è un potenziale strumento di visibilità.
+                        </p>
+                        <p> Tutto ciò fa pensare che in futuro le squadre saranno sempre più interessate ad acquistare giocatori popolari che permettano di conquistare un maggior numero di sponsor, attratti dalla visibilità che potrebbero avere grazie alla popolarità e alla fama dei giocatori. Il nostro obiettivo è quello di creare un indice che potrebbe essere utile per permettere alle società calcistiche di quantificare qualcosa di qualitativo come la popolarità e fare scelte di acquisto orientate in tale direzione.
+                        </p>
+                    </div>
+                </div>
+                <div class='c1'>
+                    <div>
+                        <h2>
+                            Come misurare la popolarità?
+                        </h2>
+                        <hr>
+                        <p>
+                            La piattaforma <a href='http://www.socialmediasoccer.com/it/home.html'>SocialMediaSoccer</a> analizza periodicamente le statistiche social delle squadre e dei calciatori, focalizzandosi in particolare su Facebook, Instagram e Twitter. È ragionevole pensare che la popolarità di un calciatore sia qualcosa che si evolva nel tempo in base non solo al riscontro social ma anche - e soprattutto - in base alle performance ottenute sul campo, delle quali parlano i quotidiani sportivi nazionali ed internazionali. Per questo motivo l'indicatore finale sarà una fusione di più dimensioni: quella legata ai <i>social</i>, quella legata ai <i>media</i> ed infine una misura generica della popolarità sul <i>web</i>.
+                        </p>
+                        <p> Tali misure sono state raccolte per i 300 giocatori che hanno ottenuto i maggiori valori di mercato su www.transfermarkt.com in data 1 Dicembre 2018; alcuni sono stati esclusi dalle successive analisi perché non appartenenti ai 5 campionati europei più importanti, cioè Serie A, La Liga, Bundesliga, Ligue 1 e Premier League.
+                        </p>
+                        
+                        <!-- GRAFICO MAPPA -->
+                        <div class='tableauPlaceholder' id='viz1546690004074' style='position: relative; margin:auto'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book_mappa&#47;map&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Book_mappa&#47;map' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book_mappa&#47;map&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1546690004074');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='800px';vizElement.style.height='427px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                        <!-- FINE GRAFICO MAPPA -->
+                        
+                        
+                        <h3>
+                            Social Network
+                        </h3>
+                        <p>
+                            Per la nostra analisi abbiamo considerato il numero di follower sui tre social network Facebook, Twitter e Instagram, che nel complesso permettono di considerare un pubblico molto eterogeneo.
+                        </p>
+                       
+                        <p> 
+                            Nell’istogramma seguente vengono mostrati il numero totale di follower per ognuno dei 15 giocatori con il maggior seguito su Instagram (l’unico social posseduto da tutti i giocatori considerati). Si può notare come i primi tre giocatori siano molto distanti dagli altri, nonostante ad esempio Messi non abbia Twitter: si potrà notare come anche nelle analisi successive questi tre giocatori resteranno “estremi” rispetto a tutti gli altri.
+                        </p>
+                        
+                        <!-- GRAFICO SOCIAL -->
+                        <div style='margin:auto; width: 600px'>
+                        <img src='./imgs/graphs/Social_Hist.png'>
+                        </div>
+                        <!-- FINE GRAFICO SOCIAL -->
+                        
+                        <p>
+                            Relativamente a Instagram abbiamo considerato anche la media dei “like” ottenuti nelle ultime 10 foto pubblicate e il numero di post in cui sia presente come hashtag il nome del giocatore considerato.
+                        </p>
+                        
+                        <h3>
+                            Media
+                        </h3>
+                        <p>
+                            Abbiamo deciso di considerare il mondo dei media perché è intuitivo riconoscere che la popolarità di un giocatore dipenda anche da quanto se ne parla, che sia per le sue ottime prestazioni in campo, perché oggetto di particolari simpatie dei tifosi, per un imminente trasferimento o qualsiasi altro motivo, anche negativo, per cui faccia parlare di sé. 
+                        </p>
+
+                        <p> 
+                            Abbiamo analizzato tre riviste per ognuno dei paesi dei cinque campionati e altre tre riviste di stampo più internazionale. Nei seguenti <i>bubble charts</i> ogni pallone è tanto più grande quanto maggiore è la popolarità del giocatore nella rivista in questione, ossia quanti più sono gli articoli nei quali viene citato, e tanto più scuro quanto più è alto il suo valore di mercato.
+                        </p>
+                                                
+                        
+                        
+                        
+                        
+                        <!-- GRAFICI BOLLE -->
+                        
+                        <div style='margin:auto; max-width: 1000px; text-align:center'>
+                        <ul class='horiz_menu1'>
+                        <li>
+                            <div id="Internazionale_button" class='clicked1' ><a onclick="Show('Internazionale')">Internazionale</a></div>
+                        </li>
+                        <li>
+                            <div id="Italia_button" class='not_clicked1'><a onclick="Show('Italia')">Italia</a></div>
+                        </li>
+                        <li>
+                            <div id="Francia_button" class='not_clicked1'><a onclick="Show('Francia')">Francia</a></div>
+                        </li>
+                        <li>
+                            <div id="Inghilterra_button" class='not_clicked1'><a onclick="Show('Inghilterra')">Inghilterra</a></div>
+                        </li>
+                        <li>
+                            <div id="Spagna_button" class='not_clicked1'><a onclick="Show('Spagna')">Spagna</a></div>
+                        </li>
+                        <li>
+                            <div id="Germania_button" class='not_clicked1'><a onclick="Show('Germania')">Germania</a></div>
+                        </li>
+                        </ul>
+                        </div><br>
+                        
+                        <div id='Internazionale' class='graph_bolle' style='display:block'>
+                        <div class='tableauPlaceholder' id='viz1546691786783' style='position: relative; margin:auto'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Bolle_giornali&#47;INT&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Bolle_giornali&#47;INT' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Bolle_giornali&#47;INT&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1546691786783');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1000px';vizElement.style.height='427px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script></div>
+                        
+                        <div id='Spagna' class='graph_bolle' style='display:none'>
+                        <div class='tableauPlaceholder' id='viz1546693771009' style='position: relative; margin:auto'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Bolle_giornali&#47;SPA&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Bolle_giornali&#47;SPA' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Bolle_giornali&#47;SPA&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1546693771009');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1000px';vizElement.style.height='427px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script></div>
+                        
+                        <div id='Germania' class='graph_bolle' style='display:none'>
+                        <div class='tableauPlaceholder' id='viz1546693989647' style='position: relative; margin:auto'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Bolle_giornali&#47;GER&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Bolle_giornali&#47;GER' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Bolle_giornali&#47;GER&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1546693989647');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1000px';vizElement.style.height='427px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script></div>
+                        
+                        <div id='Francia' class='graph_bolle' style='display:none'>
+                        <div class='tableauPlaceholder' id='viz1546699545152' style='position: relative; margin:auto'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Bolle_giornali&#47;FRA&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Bolle_giornali&#47;FRA' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Bolle_giornali&#47;FRA&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1546699545152');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1000px';vizElement.style.height='427px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script></div>
+                        
+                        <div id='Inghilterra' class='graph_bolle' style='display:none'>
+                        <div class='tableauPlaceholder' id='viz1546696527826' style='position: relative; margin:auto'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Bolle_giornali&#47;ENG&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Bolle_giornali&#47;ENG' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Bolle_giornali&#47;ENG&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1546696527826');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1000px';vizElement.style.height='427px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script></div>
+                        
+                        <div id='Italia' class='graph_bolle' style='display:none'>
+                        <div class='tableauPlaceholder' id='viz1546696540859' style='position: relative; margin:auto'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Bolle_giornali&#47;ITA&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Bolle_giornali&#47;ITA' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Bolle_giornali&#47;ITA&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1546696540859');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1000px';vizElement.style.height='427px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script></div>
+                        
+                        <!-- FINE GRAFICI BOLLE -->
+                                                <p> 
+                            Qualche spunto per la lettura dei grafici:
+<ul>
+
+<li>Alcuni giornali sono prettamente “nazionali” tipo <i>Eurosport Francia</i>, che parla molto spesso di Lo Celso, Cavani o Thauvin, che non compaiono in evidenza in nessun’altra nazione; un altro esempio è <i>Sky England</i> che è particolarmente incentrato su giocatori del campionato inglese, ma soprattutto parla molto poco di giocatori di fama internazionale quali Messi e Ronaldo.</li>
+
+<li> Alcuni giocatori sono “caratteristici” di una nazione: Cavani per la Francia, Icardi e Higuain per l’Italia, Müller e Hummels per la Germania, Marcelo e Piqué per la Spagna, Hazard per l’Inghilterra. </li>
+
+<li><i>TheSun</i> sembra un giornale molto più “democratico” in quanto le dimensioni delle bolle sono molto simili tra loro. Una cosa simile accade nei giornali internazionali, sebbene in essi si notino comunque alcuni giocatori famosi.</li>
+
+<li> <i>Mundo Deportivo</i> è un giornale più concentrato sulle vicende del Barcellona e sembra anche dare largo spazio agli articoli di calciomercato.</li>
+
+</ul>
+
+                        </p>
+
+                        <p> 
+                            La nostra idea iniziale, come si vede dai grafici sottostanti, era che nelle riviste nazionali si parlasse maggiormente dei giocatori che attualmente giocano nel campionato della nazione in questione, oppure di quelli più famosi a livello internazionale, specialmente grazie alla presenza in Champions League: la scelta di prendere in considerazione giornali di nazioni diverse e alcuni internazionali mira a compensare questo “effetto nazione”.                        
+                        </p>
+                        
+                         <!-- GRAFICI BOXPLOTS -->
+                        <div style='margin:auto; max-width: 1000px; text-align:center'>
+                        <ul class='horiz_menu2'>
+                        <li>
+                            <div id="BPInternazionale_button2" class='clicked2' ><a onclick="Show2('BPInternazionale')">Internazionale</a></div>
+                        </li>
+                        <li>
+                            <div id="BPItalia_button2" class='not_clicked2'><a onclick="Show2('BPItalia')">Italia</a></div>
+                        </li>
+                        <li>
+                            <div id="BPFrancia_button2" class='not_clicked2'><a onclick="Show2('BPFrancia')">Francia</a></div>
+                        </li>
+                        <li>
+                            <div id="BPInghilterra_button2" class='not_clicked2'><a onclick="Show2('BPInghilterra')">Inghilterra</a></div>
+                        </li>
+                        <li>
+                            <div id="BPSpagna_button2" class='not_clicked2'><a onclick="Show2('BPSpagna')">Spagna</a></div>
+                        </li>
+                        <li>
+                            <div id="BPGermania_button2" class='not_clicked2'><a onclick="Show2('BPGermania')">Germania</a></div>
+                        </li>
+                        </ul>
+                        </div><br>
+                        
+                        <div id='BPInternazionale' class='graph_boxplot' style='display:block; margin:auto; width: 600px'>
+                        <img src='./imgs/graphs/boxplot_internazionale.png'>
+                        </div>
+                        
+                        <div id='BPItalia' class='graph_boxplot' style='display:none; margin:auto; width: 600px'>
+                        <img src='./imgs/graphs/boxplot_italia.png'>
+                        </div>
+                        
+                        <div id='BPFrancia' class='graph_boxplot' style='display:none; margin:auto; width: 600px'>
+                        <img src='./imgs/graphs/boxplot_francia.png'>
+                        </div>
+                        
+                        <div id='BPInghilterra' class='graph_boxplot' style='display:none; margin:auto; width: 600px'>
+                        <img src='./imgs/graphs/boxplot_inghilterra.png'>
+                        </div>
+                        
+                        <div id='BPSpagna' class='graph_boxplot' style='display:none; margin:auto; width: 600px'>
+                        <img src='./imgs/graphs/boxplot_spagna.png'>
+                        </div>
+                        
+                        <div id='BPGermania' class='graph_boxplot' style='display:none; margin:auto; width: 600px'>
+                        <img src='./imgs/graphs/boxplot_germania.png'>
+                        </div>
+                        <!-- FINE GRAFICI BOXPLOTS -->
+                        
+                        <h3>
+                            Web
+                        </h3>
+                        <p> 
+                            Consideriamo, infine, queste due misure:
+<ul>
+<li> <i>Wikipedia Page Views</i>: numero di visualizzazioni alla pagina dei giocatori su <a href='https://en.wikipedia.org/wiki/Main_Page'>Wikipedia</a> in un determinato arco temporale.</li>
+<li> <i>Hit di google</i>: numero di risultati che compaiono su Google cercando i nomi dei giocatori.</li>
+</ul>
+Queste saranno lasciate separate perché misurano dimensioni diverse dell’interesse mostrato sul web per i giocatori, una più “enciclopedica” e una più generale.
+
+                        </p>
+                    </div>
+                </div>
+                <div class='c1'>
+                    <div>
+                        <h2>
+                            L'indice di popolarità
+                        </h2>
+
+                        <hr>
+                        
+                        <p>
+                            Cerca un giocatore:
+                        </p>
+                        
+                        <div id="search_box_results">
+                            <div id="searchfield">
+                                <form><input type="text" name="currency" class="biginput" id="autocomplete" placeholder="Inserisci il nome di un calciatore"></form>
+                            </div>
+                            <!-- @end #searchfield -->
+                            <div id='player_box' style='display:none'>
+                                <div id='player_box2'>
+                                    <table style="margin:auto; width:500px; margin-top:20px">
+                                        <tr>
+                                            <td>
+                                                <div id='immagine'></div>
+                                            </td>
+                                            <td><span id='nome'></span><br><br><span>Squadra: </span><span id='squadra'></span><br><span>Ruolo: </span><span id='ruolo'></span><br><br><span id='label_ipop'>Indice di popolarità (%): </span><a id='ipopa'><span id='ipop'></span></a></td>
+                                        </tr>
+                                    </table>
+                                    <table style='margin-top:-10px'>
+                                        <tr>
+                                            <td width="400px" height="450px">
+                                                <div id='canvas1'></div>
+                                            </td>
+                                            <td width="400px" height="450px">
+                                                <div id='canvas2'></div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <p>
+                            L’indice finale di popolarità (IPOP) è una media pesata delle dimensioni considerate, ossia social, media, ricerche su wikipedia e hit di google. Un indice semplice ma efficace, come dimostrano i successivi grafici che lo mettono in relazione con le prestazioni, il ruolo, l’età e il valore di mercato dei giocatori.
+                        </p>
+<h3>Performance - IPOP - valore - ruolo</h3>
+<p>
+<ul>
+<li><i>Performance</i> : calcolata come (assist+goal)/presenze, considerando l’intera carriera. Dividiamo per il numero di presenze in quanto siamo interessati a misurare e confrontare le prestazioni di giocatori di età molto diverse: un indice medio di influenza realizzativa è dunque più appropriato.  </li>
+<li><i>IPOP</i>: indice di popolarità</li>
+<li>Dimensione dei punti data dal valore di mercato </li>
+<li>Colore a seconda del ruolo </li>
+</ul>
+</p>
+                        
+                        <!-- GRAFICO IPOP VS PRESTAZIONI -->
+                        <div class='tableauPlaceholder' id='viz1546685438470' style='position: relative; margin:auto'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;An&#47;Analisi-IPOP&#47;PopvsPrestazioni&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Analisi-IPOP&#47;PopvsPrestazioni' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;An&#47;Analisi-IPOP&#47;PopvsPrestazioni&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1546685438470');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='600px';vizElement.style.height='527px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                        <!-- FINE GRAFICO IPOP VS PRESTAZIONI -->
+                    
+                    
+                    <p>
+                        A colpo d’occhio si osservano tre gruppi distinti a seconda dei ruoli: la propensione a segnare goal e a fornire assist dei difensori è minore rispetto a quella di centrocampisti che a loro volta sono meno incisivi degli attaccanti in zona goal. Spiccano tra i difensori quei giocatori che per caratteristiche e ruolo all’interno della squadra hanno un impatto significativo sulla fase offensiva; ne sono esempi Marcelo del Real Madrid e Florenzi della Roma. 
+                    </p>
+                    
+<h3>Performance in Champions League - IPOP - valore - ruolo</h3>
+
+                    <p>
+                        Questo grafico è simile al precedente, però considera solo gli attaccanti e i centrocampisti che partecipano alla Champions League, escludendo quindi 31 giocatori che non hanno alcuna presenza in Champions, probabilmente per la loro appartenenza a squadre minori.
+                    </p>
+                        
+                        
+                        <!-- GRAFICO IPOP VS PRESTAZIONI IN CHAMPIONS-->
+                        <div class='tableauPlaceholder' id='viz1546687159783' style='position: relative; margin:auto'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;An&#47;Analisi-IPOP&#47;PopvsChampions&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Analisi-IPOP&#47;PopvsChampions' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;An&#47;Analisi-IPOP&#47;PopvsChampions&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1546687159783');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='600px';vizElement.style.height='527px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                        <!-- FINE GRAFICO IPOP VS PRESTAZIONI IN CHAMPIONS -->
+                    
+                    <p>
+                        Ormai non ci stupiscono più i tre giocatori separati dal gruppo per la loro elevata popolarità e performance: Ronaldo, Messi e Neymar. Altri giocatori come Kane, Firmino e Kramaric hanno prestazioni simili a quelle dei tre fuoriclasse. Essi hanno un numero di presenze minori in Champions League ma, per quanto riguarda Kane e Firmino, l’associazione con Ronaldo, Messi e Neymar non è forzata come testimonia anche il loro alto valore di mercato (rispettivamente 150 e 80 milioni). Discorso diverso vale invece per Kramaric che ha giocato solo 6 volte in Champions senza mai superare i gironi; in pratica Kramaric è al suo primo anno in Champions League e quindi deve ancora dimostrare di essere in grado di mantenere un livello di prestazioni così alto nel tempo, come invece gli altri hanno già dimostrato.
+                    </p>                    
+                    <p>
+                        Anche l’età influisce sulle presenze in Champions ma solo fino ad un certo punto, infatti nonostante Kramaric abbia un anno più di Neymar, il primo ha giocato solo 6 partite, mentre il secondo ne ha giocate 53, con ottimi risultati. 
+                    </p>                    
+                    <p>
+                        Da questo grafico si vede anche come chi ha giocato di più in Champions abbia una maggiore popolarità, poiché i pallini di dimensione maggiore si trovano nella parte alta del grafico.
+                    </p>
+                    
+                    <h3>Valore di mercato - popolarità - età</h3>
+                        
+                        <!-- GRAFICO IPOP VS ETA-->
+                        <div class='tableauPlaceholder' id='viz1546790268406' style='position: relative; margin:auto'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Po&#47;Popolarit-et&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Popolarit-et&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Po&#47;Popolarit-et&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1546790268406');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='600px';vizElement.style.height='527px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                        <!-- FINE GRAFICO IPOP VS ETA -->
+                    
+                    <p>
+                        Osservando i colori di questo grafico si nota come la popolarità sia solitamente più elevata al crescere dell’età, in quanto i giocatori più “vecchi” (di colore blu) sono più in alto, e quindi più popolari di quelli più giovani, nonostante il loro valore di mercato stia diminuendo, come per Modric o Sergio Ramos. 
+                    </p>
+                    <p>
+                        Un caso particolare è rappresentato da Mbappè, il quale pur essendo molto giovane ha sia un valore di mercato molto alto che una popolarità elevata. Altro giocatore che salta all’occhio è Pogba, 25enne che si distingue per la sua popolarità seconda solo a quella dei tre “outliers”.
+                    </p>
+                        
+<h3>IPOP - nazione</h3>
+                        
+                        <!-- GRAFICO IPOP BOXPLOT -->
+                        <div style='margin:auto; width:600px'>
+                        <img src='./imgs/graphs/boxplot_ipop.png'>
+                        </div>
+                        <!-- FINE GRAFICO IPOP BOXPLOT -->
+                    
+                    <p>
+                        Un’ultima indicazione del fatto che il nostro indice sia sensato è che non privilegia una nazione in particolare, ma presenta livelli delle mediane simili a quelli che riscontriamo nei giornali internazionali, il che significa che non è influenzato da quello che abbiamo chiamato “effetto nazione”.
+                    </p>
+                        
+                    </div>
+                </div>
+                <!--   RIFERIMENTI    -->
+                <div class='c2'>
+                    <div>
+                        <h2>Riferimenti</h2>
+                        <hr>
+                        <p>[1] "Juve, effetto CR7 sui social. Supera Psg e Reds: ora è 7ª, Arsenal nel mirino", Gazzetta dello Sport, <a href='https://www.gazzetta.it/Calcio/Serie-A/Juventus/19-09-2018/juventus-ronaldo-psg-liverpool-social-2901133131692.shtml'>https://www.gazzetta.it/Calcio/Serie-A/Juventus/19-09-2018/juventus-ronaldo-psg-liverpool-social-2901133131692.shtml</a><p>
+                        <p>[2] "Juve, effetto Ronaldo anche sui social: su Instagram 1 milione di follower in più", Calcio e Finanza, <a href='https://www.calcioefinanza.it/2018/07/11/crescita-social-juventus-con-cristiano-ronaldo/'>https://www.calcioefinanza.it/2018/07/11/crescita-social-juventus-con-cristiano-ronaldo/</a></p>
+                        <p>[3] "Instagram «regina» dei social network", Sport Economy, <a href='https://www.sporteconomy.it/instagram-regina-dei-social-network/'>https://www.sporteconomy.it/instagram-regina-dei-social-network/</a></p>
+                        <p>[4] "Juventus rinnova con Adidas: 51 milioni a stagione fino al 2027", Calcio e Finanza, <a href='https://www.calcioefinanza.it/2018/12/21/juventus-rinnova-con-adidas-51-milioni-stagione-fino-al-2027/'>https://www.calcioefinanza.it/2018/12/21/juventus-rinnova-con-adidas-51-milioni-stagione-fino-al-2027/</a></p>
+                        <p>[5] "Juventus il rinnovo con Adidas schizza alle stelle", SportFair, <a href='http://www.sportfair.it/2018/12/juventus-sponsorizzazione-adidas-rinnovo-408-milioni-di-euro/861656/'>http://www.sportfair.it/2018/12/juventus-sponsorizzazione-adidas-rinnovo-408-milioni-di-euro/861656/</a></p>
+                    </div>
+                </div>
+            </div>
+            <div id='method' style='display:none'>
+                <div class='c2'>
+                    <div>
+                        <h2>Metodologia</h2>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="js/applicazione.js"></script>
+    </body>
+</html>

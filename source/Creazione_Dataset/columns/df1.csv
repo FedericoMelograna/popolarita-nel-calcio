@@ -1,0 +1,301 @@
+id,nome,eta,nazione,ruolo,ruolo_detail,squadra,valore,instagram_followers,facebook_followers,twitter_followers
+342229,Kylian Mbappé,19,Francia,Attaccante,Ala destra,FC Paris Saint-Germain,180000000,24019703,1639467,2252200
+68290,Neymar,26,Brasile,Attaccante,Ala sinistra,FC Paris Saint-Germain,180000000,107716768,60699722,41636656
+28003,Lionel Messi,31,Argentina,Attaccante,Ala destra,FC Barcellona,180000000,103764191,89898268,
+148455,Mohamed Salah,26,Egitto,Attaccante,Ala destra,FC Liverpool,150000000,21661975,11016135,7457524
+132098,Harry Kane,25,Inghilterra,Attaccante,Punta centrale,Tottenham Hotspur,150000000,7389999,1660408,2453183
+125781,Antoine Griezmann,27,Francia,Attaccante,Punta centrale,Atlético de Madrid,150000000,22858764,7657796,5830632
+88755,Kevin De Bruyne,27,Belgio,Centrocampista,Trequartista,Manchester City,150000000,7413980,3311435,1634410
+80444,Philippe Coutinho,26,Brasile,Centrocampista,Trequartista,FC Barcellona,150000000,19320944,2349602,1834436
+50202,Eden Hazard,27,Belgio,Attaccante,Ala sinistra,Chelsea FC,150000000,17814105,9276779,5803555
+206050,Paulo Dybala,25,Argentina,Attaccante,Seconda punta,Juventus FC,110000000,25153030,3449025,1551710
+207929,Dele Alli,22,Inghilterra,Centrocampista,Trequartista,Tottenham Hotspur,100000000,5924166,621060,760328
+96341,Romelu Lukaku,25,Belgio,Attaccante,Punta centrale,Manchester United,100000000,4030109,2824260,1535233
+8198,Cristiano Ronaldo,33,Portogallo,Attaccante,Ala sinistra,Juventus FC,100000000,148673079,122537332,75481157
+68863,Mauro Icardi,25,Argentina,Attaccante,Punta centrale,FC Internazionale,95000000,4452085,566184,1344271
+296622,Marco Asensio,22,Spagna,Attaccante,Ala sinistra,Real Madrid CF,90000000,10631793,2069304,1236129
+266302,Sergej Milinkovic-Savic,23,Serbia,Centrocampista,Centrale,SS Lazio,90000000,322551,,
+192565,Leroy Sané,22,Germania,Attaccante,Ala sinistra,Manchester City,90000000,3302069,554243,1200483
+148928,Saúl Níguez,24,Spagna,Centrocampista,Centrale,Atlético de Madrid,90000000,1047537,480545,391081
+134425,Raheem Sterling,24,Inghilterra,Attaccante,Ala destra,Manchester City,90000000,4273939,2210537,1519236
+122153,Paul Pogba,25,Francia,Centrocampista,Centrale,Manchester United,90000000,30889367,7269139,6131385
+85288,Isco,26,Spagna,Centrocampista,Trequartista,Real Madrid CF,90000000,16507480,3047493,5216127
+39381,Gareth Bale,29,Galles,Attaccante,Ala destra,Real Madrid CF,90000000,37898328,28568021,17583251
+363205,Gabriel Jesus,21,Brasile,Attaccante,Punta centrale,Manchester City,80000000,11237646,1174218,769620
+288230,Ousmane Dembélé,21,Francia,Attaccante,Ala sinistra,FC Barcellona,80000000,7255740,,724062
+225083,N'Golo Kanté,27,Francia,Centrocampista,Mediano,Chelsea FC,80000000,5661090,951136,744532
+164770,Raphaël Varane,25,Francia,Difensore,Difensore centrale,Real Madrid CF,80000000,11548441,6867767,5240536
+131789,Roberto Firmino,27,Brasile,Attaccante,Seconda punta,FC Liverpool,80000000,7919426,894260,
+121483,Jan Oblak,25,Slovenia,Portiere,Portiere,Atlético de Madrid,80000000,832426,,
+88103,James Rodríguez,27,Colombia,Centrocampista,Trequartista,FC Bayern Monaco,80000000,40632665,32708320,17885066
+74857,Marc-André ter Stegen,26,Germania,Portiere,Portiere,FC Barcellona,80000000,7867719,2927218,1325713
+69633,Christian Eriksen,26,Danimarca,Centrocampista,Trequartista,Tottenham Hotspur,80000000,1327963,,640482
+65230,Sergio Busquets,30,Spagna,Centrocampista,Mediano,FC Barcellona,80000000,,3113955,
+38253,Robert Lewandowski,30,Polonia,Attaccante,Punta centrale,FC Bayern Monaco,80000000,13819513,9228979,1147239
+31909,Toni Kroos,28,Germania,Centrocampista,Centrale,Real Madrid CF,80000000,20210938,12387870,7338466
+26399,Sergio Agüero,30,Argentina,Attaccante,Punta centrale,Manchester City,80000000,10622135,10934432,13138845
+58864,Pierre-Emerick Aubameyang,29,Gabon,Attaccante,Punta centrale,FC Arsenal,75000000,7855421,719912,1064506
+205562,Thomas Lemar,23,Francia,Attaccante,Ala sinistra,Atlético de Madrid,70000000,895956,,
+200512,Sadio Mané,26,Senegal,Attaccante,Ala sinistra,FC Liverpool,70000000,2846176,618004,
+126540,Samuel Umtiti,25,Francia,Difensore,Difensore centrale,FC Barcellona,70000000,5612100,1377227,1034246
+102558,Marco Verratti,26,Italia,Centrocampista,Centrale,FC Paris Saint-Germain,70000000,4250907,2121634,
+74229,Koke,26,Spagna,Centrocampista,Centrale,Atlético de Madrid,70000000,1985163,1292100,921243
+69751,Jordi Alba,29,Spagna,Difensore,Terzino sinistro,FC Barcellona,70000000,10575116,3652201,2207921
+59377,David de Gea,28,Spagna,Portiere,Portiere,Manchester United,70000000,10259313,6833359,11775038
+44501,Marcelo,30,Brasile,Difensore,Terzino sinistro,Real Madrid CF,70000000,34121574,19824540,11099
+44352,Luis Suárez,31,Uruguay,Attaccante,Punta centrale,FC Barcellona,70000000,31348782,18773048,15226778
+44162,Miralem Pjanic,28,Bosnia-Erzegovina,Centrocampista,Centrale,Juventus FC,70000000,3238611,988563,417207
+32467,Ivan Rakitic,30,Croazia,Centrocampista,Centrale,FC Barcellona,70000000,12877683,4033976,1335027
+16306,Casemiro,26,Brasile,Centrocampista,Mediano,Real Madrid CF,70000000,9457330,4300289,1601397
+302215,Naby Keïta,23,Guinea,Centrocampista,Centrale,FC Liverpool,65000000,760701,171716,
+258923,Marcus Rashford,21,Inghilterra,Attaccante,Punta centrale,Manchester United,65000000,5857745,736768,1437665
+203496,Nabil Fekir,25,Francia,Centrocampista,Trequartista,Olympique Lione,65000000,965474,184650,322120
+133964,Lorenzo Insigne,27,Italia,Attaccante,Ala sinistra,SSC Napoli,65000000,842770,295066,25586
+108390,Thibaut Courtois,26,Belgio,Portiere,Portiere,Real Madrid CF,65000000,5867348,5447246,2251570
+93720,Alexandre Lacazette,27,Francia,Attaccante,Punta centrale,FC Arsenal,65000000,2591950,493766,1029268
+241641,Bernardo Silva,24,Portogallo,Attaccante,Ala destra,Manchester City,60000000,1032045,222764,390772
+238223,Ederson,25,Brasile,Portiere,Portiere,Manchester City,60000000,1423891,281895,104304
+182877,Anthony Martial,23,Francia,Attaccante,Ala sinistra,Manchester United,60000000,5282308,1190939,1690613
+171424,Riyad Mahrez,27,Algeria,Attaccante,Ala destra,Manchester City,60000000,2598827,1355133,1472431
+170527,Timo Werner,22,Germania,Attaccante,Punta centrale,RasenBallsport Lipsia,60000000,461790,140511,
+139208,Virgil van Dijk,27,Olanda,Difensore,Difensore centrale,FC Liverpool,60000000,1815799,,529000
+138927,Daniel Carvajal,26,Spagna,Difensore,Terzino destro,Real Madrid CF,60000000,3177922,637283,3502254
+128223,Álvaro Morata,26,Spagna,Attaccante,Punta centrale,Chelsea FC,60000000,9840989,7484382,4356784
+105470,Alisson,26,Brasile,Portiere,Portiere,FC Liverpool,60000000,3673963,1234101,404576
+102017,Jorginho,26,Italia,Centrocampista,Mediano,Chelsea FC,60000000,775397,,
+93128,Kalidou Koulibaly,27,Senegal,Difensore,Difensore centrale,SSC Napoli,60000000,619359,86341,106101
+60444,Thiago,27,Spagna,Centrocampista,Centrale,FC Bayern Monaco,60000000,4578122,3463398,25214
+48280,Edinson Cavani,31,Uruguay,Attaccante,Punta centrale,FC Paris Saint-Germain,60000000,5957071,4893719,1759373
+44779,Diego Costa,30,Spagna,Attaccante,Punta centrale,Atlético de Madrid,60000000,3415904,1824875,538871
+309400,Kai Havertz,19,Germania,Centrocampista,Trequartista,Bayer 04 Leverkusen,55000000,110004,16778,
+186590,John Stones,24,Inghilterra,Difensore,Difensore centrale,Manchester City,55000000,713225,,27945
+181767,Marquinhos,24,Brasile,Difensore,Difensore centrale,FC Paris Saint-Germain,55000000,2771656,756345,311661
+161056,Joshua Kimmich,23,Germania,Difensore,Terzino destro,FC Bayern Monaco,55000000,2090474,537236,
+85370,Sergi Roberto,26,Spagna,Difensore,Terzino destro,FC Barcellona,55000000,6141541,,2327733
+75615,Douglas Costa,28,Brasile,Attaccante,Ala destra,Juventus FC,55000000,5028159,866128,397910
+40433,Alexis Sánchez,29,Cile,Attaccante,Ala sinistra,Manchester United,55000000,9649632,5005045,2811335
+39728,Mats Hummels,29,Germania,Difensore,Difensore centrale,FC Bayern Monaco,55000000,2589705,4077597,2144844
+39153,Gonzalo Higuaín,31,Argentina,Attaccante,Punta centrale,AC Milan,55000000,3060533,309052,6831531
+362842,Arthur,22,Brasile,Centrocampista,Centrale,FC Barcellona,50000000,2298970,304839,10378
+341092,Federico Chiesa,21,Italia,Attaccante,Ala destra,ACF Fiorentina,50000000,234894,23734,2312
+326031,Matthijs de Ligt,19,Olanda,Difensore,Difensore centrale,AFC Ajax Amsterdam,50000000,322653,,
+281963,Lucas Hernández,22,Francia,Difensore,Terzino sinistro,Atlético de Madrid,50000000,1233571,,235133
+250845,José Giménez,23,Uruguay,Difensore,Difensore centrale,Atlético de Madrid,50000000,888046,310836,360437
+243714,Kingsley Coman,22,Francia,Attaccante,Ala sinistra,FC Bayern Monaco,50000000,641334,419287,
+204069,Milan Skriniar,23,Slovacchia,Difensore,Difensore centrale,FC Internazionale,50000000,485047,38500,336651
+192279,Kepa,24,Spagna,Portiere,Portiere,Chelsea FC,50000000,532178,3008,130197
+191614,Fred,25,Brasile,Centrocampista,Centrale,Manchester United,50000000,815873,57001,131508
+184892,Florian Thauvin,25,Francia,Attaccante,Ala destra,Olympique Marsiglia,50000000,953042,165356,784751
+182913,Adrien Rabiot,23,Francia,Centrocampista,Centrale,FC Paris Saint-Germain,50000000,1270036,,69014
+176553,Aymeric Laporte,24,Francia,Difensore,Difensore centrale,Manchester City,50000000,354064,155277,132565
+166601,Niklas Süle,23,Germania,Difensore,Difensore centrale,FC Bayern Monaco,50000000,420143,,
+131505,Rodrigo,27,Spagna,Attaccante,Punta centrale,Valencia CF,50000000,282083,,
+105521,Ciro Immobile,28,Italia,Attaccante,Punta centrale,SS Lazio,50000000,627939,857389,346969
+95424,Kyle Walker,28,Inghilterra,Difensore,Terzino destro,Manchester City,50000000,1232887,1066955,1364170
+91845,Heung-min Son,26,Corea del Sud,Attaccante,Ala sinistra,Tottenham Hotspur,50000000,1699462,823019,
+59016,David Alaba,26,Austria,Difensore,Terzino sinistro,FC Bayern Monaco,50000000,4539795,3550134,1753329
+58358,Thomas Müller,29,Germania,Attaccante,Seconda punta,FC Bayern Monaco,50000000,6363301,9342075,4129026
+52769,Willian,30,Brasile,Attaccante,Ala destra,Chelsea FC,50000000,8054627,6223180,52033
+401173,Jadon Sancho,18,Inghilterra,Attaccante,Ala sinistra,Borussia Dortmund,45000000,758122,,92267
+387626,Leon Bailey,21,Giamaica,Attaccante,Ala sinistra,Bayer 04 Leverkusen,45000000,299464,37952,19071
+378710,Richarlison,21,Brasile,Attaccante,Ala sinistra,FC Everton,45000000,1203403,47898,111914
+323704,Malcom,21,Brasile,Attaccante,Ala destra,FC Barcellona,45000000,2107548,,
+315779,Christian Pulisic,20,Stati Uniti,Attaccante,Ala destra,Borussia Dortmund,45000000,1302366,200656,186610
+225693,Fabinho,25,Brasile,Centrocampista,Mediano,FC Liverpool,45000000,695456,60568,6161
+197300,Federico Bernardeschi,24,Italia,Attaccante,Ala destra,Juventus FC,45000000,1628506,205281,117716
+190393,Corentin Tolisso,24,Francia,Centrocampista,Centrale,FC Bayern Monaco,45000000,1101251,346478,199995
+187492,Julian Brandt,22,Germania,Attaccante,Ala sinistra,Bayer 04 Leverkusen,45000000,380602,55622,17803
+177907,Harry Maguire,25,Inghilterra,Difensore,Difensore centrale,Leicester City,45000000,476227,24860,218835
+167850,Memphis Depay,24,Olanda,Attaccante,Punta centrale,Olympique Lione,45000000,5490175,2914957,1301666
+157495,Benjamin Mendy,24,Francia,Difensore,Terzino sinistro,Manchester City,45000000,2575142,171014,1085956
+112515,Marcos Alonso,27,Spagna,Difensore,Terzino sinistro,Chelsea FC,45000000,1258524,439238,349789
+79960,Alex Sandro,27,Brasile,Difensore,Terzino sinistro,Juventus FC,45000000,1465140,,
+50057,Aaron Ramsey,27,Galles,Centrocampista,Centrale,FC Arsenal,45000000,3113611,4623868,3084654
+45320,Ángel Di María,30,Argentina,Attaccante,Ala destra,FC Paris Saint-Germain,45000000,7987037,3395743,146886
+42460,Ivan Perisic,29,Croazia,Attaccante,Ala sinistra,FC Internazionale,45000000,1419682,163277,4827
+35664,Mesut Özil,30,Germania,Centrocampista,Trequartista,FC Arsenal,45000000,18674282,31336930,23521024
+18944,Gerard Piqué,31,Spagna,Difensore,Difensore centrale,FC Barcellona,45000000,16874872,18842284,18934201
+357565,Rodri,22,Spagna,Centrocampista,Mediano,Atlético de Madrid,40000000,,,
+353366,Benjamin Pavard,22,Francia,Difensore,Difensore centrale,VfB Stoccarda,40000000,1563446,74718,463
+341429,Davinson Sánchez,22,Colombia,Difensore,Difensore centrale,Tottenham Hotspur,40000000,499909,35243,122381
+326330,Frenkie de Jong,21,Olanda,Centrocampista,Centrale,AFC Ajax Amsterdam,40000000,326815,,
+318077,Lucas Torreira,22,Uruguay,Centrocampista,Mediano,FC Arsenal,40000000,854653,,178221
+316889,Hirving Lozano,23,Messico,Attaccante,Ala destra,PSV Eindhoven,40000000,1185965,,279409
+315858,Gianluigi Donnarumma,19,Italia,Portiere,Portiere,AC Milan,40000000,1623181,654673,133368
+225161,Rúben Neves,21,Portogallo,Centrocampista,Mediano,Wolverhampton Wanderers,40000000,296225,216019,34507
+225122,Gonçalo Guedes,22,Portogallo,Attaccante,Ala sinistra,Valencia CF,40000000,409975,131770,20485
+197747,Alessio Romagnoli,23,Italia,Difensore,Difensore centrale,AC Milan,40000000,665416,127851,
+196948,Andreas Christensen,22,Danimarca,Difensore,Difensore centrale,Chelsea FC,40000000,588666,,
+196357,Jonathan Tah,22,Germania,Difensore,Difensore centrale,Bayer 04 Leverkusen,40000000,160063,36356,3354
+191217,Héctor Bellerín,23,Spagna,Difensore,Terzino destro,FC Arsenal,40000000,2802981,658951,1578701
+182904,Clément Lenglet,23,Francia,Difensore,Difensore centrale,FC Barcellona,40000000,583942,56316,70830
+182712,João Cancelo,24,Portogallo,Difensore,Terzino destro,Juventus FC,40000000,1097016,105824,
+181136,Piotr Zielinski,24,Polonia,Centrocampista,Centrale,SSC Napoli,40000000,419696,224446,
+179184,Michy Batshuayi,25,Belgio,Attaccante,Punta centrale,Valencia CF,40000000,2467809,849116,1783418
+175722,Eric Dier,24,Inghilterra,Centrocampista,Mediano,Tottenham Hotspur,40000000,780615,102623,283393
+156617,Marcelo Brozovic,26,Croazia,Centrocampista,Centrale,FC Internazionale,40000000,743595,54093,
+153084,Leon Goretzka,23,Germania,Centrocampista,Centrale,FC Bayern Monaco,40000000,644003,179444,
+143424,Alex Oxlade-Chamberlain,25,Inghilterra,Centrocampista,Centrocampista di destra,FC Liverpool,40000000,3331577,2552107,2808282
+141660,Jesse Lingard,25,Inghilterra,Attaccante,Ala destra,Manchester United,40000000,5318790,936757,1143444
+126422,Allan,27,Brasile,Centrocampista,Centrale,SSC Napoli,40000000,369009,,
+111961,Suso,25,Spagna,Attaccante,Ala destra,AC Milan,40000000,929055,,126775
+111455,Granit Xhaka,26,Svizzera,Centrocampista,Mediano,FC Arsenal,40000000,1801757,1262318,
+111196,Stefan de Vrij,26,Olanda,Difensore,Difensore centrale,FC Internazionale,40000000,350206,236771,177626
+107010,Stefan Savic,27,Montenegro,Difensore,Difensore centrale,Atlético de Madrid,40000000,272756,,
+104752,Konstantinos Manolas,27,Grecia,Difensore,Difensore centrale,AS Roma,40000000,458540,,
+86202,Antonio Rüdiger,25,Germania,Difensore,Difensore centrale,Chelsea FC,40000000,918205,237595,402463
+74683,Nemanja Matic,30,Serbia,Centrocampista,Mediano,Manchester United,40000000,1209474,,39853
+57500,César Azpilicueta,29,Spagna,Difensore,Terzino destro,Chelsea FC,40000000,2250630,2991041,2086185
+53622,Ilkay Gündogan,28,Germania,Centrocampista,Centrale,Manchester City,40000000,2341938,2673213,903796
+49499,Georginio Wijnaldum,28,Olanda,Centrocampista,Centrale,FC Liverpool,40000000,1550260,,533638
+44017,Javi Martínez,30,Spagna,Centrocampista,Mediano,FC Bayern Monaco,40000000,1743298,1969600,1370887
+42710,Toby Alderweireld,29,Belgio,Difensore,Difensore centrale,Tottenham Hotspur,40000000,375698,44534,596205
+41982,Radja Nainggolan,30,Belgio,Centrocampista,Trequartista,FC Internazionale,40000000,1740379,595423,640235
+35207,Marco Reus,29,Germania,Centrocampista,Trequartista,Borussia Dortmund,40000000,7221383,13146494,3058718
+26485,Jérôme Boateng,30,Germania,Difensore,Difensore centrale,FC Bayern Monaco,40000000,5996555,3834146,2453222
+25557,Sergio Ramos,32,Spagna,Difensore,Difensore centrale,Real Madrid CF,40000000,28894279,23588468,15571740
+18922,Karim Benzema,30,Francia,Attaccante,Punta centrale,Real Madrid CF,40000000,25508947,22821698,8959498
+57229,Paulinho,30,Brasile,Centrocampista,Centrale,Guangzhou Evergrande Taobao,38000000,3587086,1793059,16875
+450936,Tanguy Ndombélé,21,Francia,Centrocampista,Centrale,Olympique Lione,35000000,95788,,
+395693,Houssem Aouar,20,Francia,Centrocampista,Centrale,Olympique Lione,35000000,181574,20738,43275
+392775,Ryan Sessegnon,18,Inghilterra,Centrocampista,Centrocampista di sinistra,FC Fulham,35000000,171375,,35824
+371998,Vinícius Júnior,18,Brasile,Attaccante,Ala sinistra,Real Madrid CF,35000000,4315534,485877,751837
+351478,Mikel Oyarzabal,21,Spagna,Attaccante,Ala sinistra,Real Sociedad,35000000,35343,,12752
+314353,Trent Alexander-Arnold,20,Inghilterra,Difensore,Terzino destro,FC Liverpool,35000000,60,,368276
+294808,Franck Kessié,21,Costa d'Avorio,Centrocampista,Centrale,AC Milan,35000000,447876,,
+274839,Wilfred Ndidi,21,Nigeria,Centrocampista,Mediano,Leicester City,35000000,328254,,72250
+234803,Andrew Robertson,24,Scozia,Difensore,Terzino sinistro,FC Liverpool,35000000,907361,,1248
+230784,Thomas,25,Ghana,Centrocampista,Mediano,Atlético de Madrid,35000000,245984,47456,59140
+221322,José Gayà,23,Spagna,Difensore,Terzino sinistro,Valencia CF,35000000,204500,,85067
+182618,Tiemoué Bakayoko,24,Francia,Centrocampista,Mediano,AC Milan,35000000,974118,67561,
+167727,Andrea Belotti,24,Italia,Attaccante,Punta centrale,Torino FC,35000000,830017,145898,34609
+159372,Felipe Anderson,25,Brasile,Attaccante,Ala sinistra,West Ham United,35000000,397592,68996,158358
+130164,Jordan Pickford,24,Inghilterra,Portiere,Portiere,FC Everton,35000000,564582,3322,186878
+128220,Luis Alberto,26,Spagna,Centrocampista,Trequartista,SS Lazio,35000000,205843,,
+95810,Kieran Trippier,28,Inghilterra,Difensore,Terzino destro,Tottenham Hotspur,35000000,431366,,257449
+74230,Pablo Sarabia,26,Spagna,Centrocampista,Trequartista,FC Siviglia,35000000,135812,,92961
+58884,Nacho Fernández,28,Spagna,Difensore,Difensore centrale,Real Madrid CF,35000000,5231217,1945754,284
+55735,Henrikh Mkhitaryan,29,Armenia,Centrocampista,Trequartista,FC Arsenal,35000000,2973508,3264181,1446732
+54781,Nicolás Otamendi,30,Argentina,Difensore,Difensore centrale,Manchester City,35000000,1984555,815011,560054
+46580,Andrej Kramaric,27,Croazia,Attaccante,Punta centrale,TSG 1899 Hoffenheim,35000000,382419,9238,
+39983,Leonardo Bonucci,31,Italia,Difensore,Difensore centrale,Juventus FC,35000000,3320455,1773989,1554631
+284730,Manuel Akanji,23,Svizzera,Difensore,Difensore centrale,Borussia Dortmund,33000000,116055,15644,9361
+158863,Iñigo Martínez,27,Spagna,Difensore,Difensore centrale,Athletic Bilbao,32000000,48370,13210,194916
+77100,Lucas Moura,26,Brasile,Attaccante,Ala destra,Tottenham Hotspur,32000000,3886302,3417868,2923428
+43250,Jan Vertonghen,31,Belgio,Difensore,Difensore centrale,Tottenham Hotspur,32000000,789215,119989,881261
+396894,Maximiliano Gómez,22,Uruguay,Attaccante,Punta centrale,Celta de Vigo,30000000,80519,,22431
+372246,Carlos Soler,21,Spagna,Centrocampista,Centrocampista di destra,Valencia CF,30000000,112769,11993,32486
+348795,Giovani Lo Celso,22,Argentina,Centrocampista,Centrale,Real Betis Balompié,30000000,718934,,119433
+344695,Dayot Upamecano,20,Francia,Difensore,Difensore centrale,RasenBallsport Lipsia,30000000,38793,,
+289446,Yerry Mina,24,Colombia,Difensore,Difensore centrale,FC Everton,30000000,3477376,117361,
+286384,Eric Bailly,24,Costa d'Avorio,Difensore,Difensore centrale,Manchester United,30000000,2067545,862021,872832
+282041,Presnel Kimpembe,23,Francia,Difensore,Difensore centrale,FC Paris Saint-Germain,30000000,2267631,115895,154690
+280730,Álvaro Odriozola,23,Spagna,Difensore,Terzino destro,Real Madrid CF,30000000,438608,7008,110636
+266807,Ángel Correa,23,Argentina,Attaccante,Ala destra,Atlético de Madrid,30000000,545814,,165145
+263918,Aleksandr Golovin,22,Russia,Centrocampista,Trequartista,AS Monaco,30000000,495617,,
+257448,Gelson Martins,23,Portogallo,Attaccante,Ala destra,Atlético de Madrid,30000000,219214,77176,25986
+255942,Nicolò Barella,21,Italia,Centrocampista,Centrale,Cagliari Calcio,30000000,79652,,
+255508,Iñaki Williams,24,Spagna,Attaccante,Ala destra,Athletic Bilbao,30000000,130878,40494,64666
+238752,Keita Baldé,23,Senegal,Attaccante,Ala sinistra,FC Internazionale,30000000,554661,188378,103428
+231572,Nélson Semedo,25,Portogallo,Difensore,Terzino destro,FC Barcellona,30000000,1744757,324472,68510
+228948,Thilo Kehrer,22,Germania,Difensore,Difensore centrale,FC Paris Saint-Germain,30000000,287443,27740,21900
+217111,Hakim Ziyech,25,Marocco,Centrocampista,Trequartista,AFC Ajax Amsterdam,30000000,1032209,166783,
+198008,André Silva,23,Portogallo,Attaccante,Punta centrale,FC Siviglia,30000000,1702644,343539,240381
+187587,Ante Rebic,25,Croazia,Attaccante,Seconda punta,Eintracht Francoforte,30000000,553170,,
+178614,Jean Michaël Seri,27,Costa d'Avorio,Centrocampista,Centrale,FC Fulham,30000000,60507,,
+159471,Serge Gnabry,23,Germania,Attaccante,Ala sinistra,FC Bayern Monaco,30000000,758908,520043,506275
+146854,Wissam Ben Yedder,28,Francia,Attaccante,Punta centrale,FC Siviglia,30000000,186500,46998,94451
+145988,Wilfried Zaha,26,Costa d'Avorio,Attaccante,Ala destra,Crystal Palace,30000000,522934,328647,835851
+130365,Alessandro Florenzi,27,Italia,Difensore,Terzino destro,AS Roma,30000000,1129748,994405,677395
+127189,Geoffrey Kondogbia,25,Repubblica Centrafricana,Centrocampista,Centrale,Valencia CF,30000000,316426,118753,170493
+126716,Paco Alcácer,25,Spagna,Attaccante,Punta centrale,Borussia Dortmund,30000000,1628782,151089,289700
+122155,Willian José,27,Brasile,Attaccante,Punta centrale,Real Sociedad,30000000,84582,,108691
+119296,Emre Can,24,Germania,Centrocampista,Mediano,Juventus FC,30000000,2317273,980530,47747
+99343,Ander Herrera,29,Spagna,Centrocampista,Centrale,Manchester United,30000000,3582588,1056778,2492380
+90466,Gylfi Sigurdsson,29,Islanda,Centrocampista,Trequartista,FC Everton,30000000,222142,,
+85148,Julian Draxler,25,Germania,Centrocampista,Trequartista,FC Paris Saint-Germain,30000000,3822996,1915990,
+77760,Victor Wanyama,27,Kenia,Centrocampista,Mediano,Tottenham Hotspur,30000000,335839,,355456
+73734,Stodd Nzonzi,29,Francia,Centrocampista,Mediano,AS Roma,30000000,345667,42260,
+56416,Dries Mertens,31,Belgio,Attaccante,Punta centrale,SSC Napoli,30000000,1347169,944060,783335
+54928,Diego Godín,32,Uruguay,Difensore,Difensore centrale,Atlético de Madrid,30000000,1405333,1027193,557460
+51471,Mateo Kovacic,24,Croazia,Centrocampista,Centrale,Chelsea FC,30000000,4447232,1036890,637324
+50174,Danny Rose,28,Inghilterra,Difensore,Terzino sinistro,Tottenham Hotspur,30000000,,,
+44068,Juan Mata,30,Spagna,Centrocampista,Trequartista,Manchester United,30000000,5051117,9414907,7642054
+38593,Marek Hamsik,31,Slovacchia,Centrocampista,Centrale,SSC Napoli,30000000,533712,625468,
+35518,David Silva,32,Spagna,Centrocampista,Trequartista,Manchester City,30000000,1127144,2431234,3790987
+35047,Axel Witsel,29,Belgio,Centrocampista,Mediano,Borussia Dortmund,30000000,930165,776450,497577
+33923,Blaise Matuidi,31,Francia,Centrocampista,Centrale,Juventus FC,30000000,4574944,2095593,2754718
+17965,Hugo Lloris,31,Francia,Portiere,Portiere,Tottenham Hotspur,30000000,1025730,,
+17259,Manuel Neuer,32,Germania,Portiere,Portiere,FC Bayern Monaco,30000000,10441792,9133975,4062339
+294057,James Maddison,22,Inghilterra,Centrocampista,Trequartista,Leicester City,28000000,134386,,61320
+286297,Lorenzo Pellegrini,22,Italia,Centrocampista,Centrale,AS Roma,28000000,273061,,18449
+258004,Rúben Dias,21,Portogallo,Difensore,Difensore centrale,Benfica Lisbona,28000000,149620,23709,
+256178,Joe Gomez,21,Inghilterra,Difensore,Difensore centrale,FC Liverpool,28000000,802837,39270,388677
+174694,Rony Lopes,22,Portogallo,Attaccante,Ala destra,AS Monaco,28000000,81477,44801,49367
+167329,Alassane Plea,25,Francia,Attaccante,Punta centrale,Borussia Mönchengladbach,28000000,100946,12420,30338
+129473,Rafinha,25,Brasile,Centrocampista,Centrale,FC Barcellona,28000000,3526186,3005150,1292455
+91970,Juan Cuadrado,30,Colombia,Attaccante,Ala destra,Juventus FC,28000000,6928112,4933923,3840487
+85314,Oscar,27,Brasile,Centrocampista,Trequartista,Shanghai SIPG,28000000,5437958,10620433,4508074
+68864,Kevin Strootman,28,Olanda,Centrocampista,Centrale,Olympique Marsiglia,28000000,619862,620908,681480
+61651,Jordan Henderson,28,Inghilterra,Centrocampista,Centrale,FC Liverpool,28000000,2270540,1370888,671800
+341647,Cengiz Ünder,21,Turchia,Attaccante,Ala destra,AS Roma,27000000,724331,46930,146758
+126414,Hakan Calhanoglu,24,Turchia,Attaccante,Ala sinistra,AC Milan,27000000,1901492,1212332,284947
+240306,Bruno Fernandes,24,Portogallo,Centrocampista,Trequartista,Sporting CP,26000000,174297,41485,32305
+60517,Yacine Brahimi,28,Algeria,Attaccante,Ala sinistra,FC Porto,26000000,598588,504716,79816
+469822,David Neres,21,Brasile,Attaccante,Ala destra,AFC Ajax Amsterdam,25000000,505225,77535,
+428791,Paulinho,18,Brasile,Attaccante,Ala sinistra,Bayer 04 Leverkusen,25000000,381686,34700,16875
+423436,Santiago Ascacíbar,21,Argentina,Centrocampista,Mediano,VfB Stoccarda,25000000,63868,,
+413507,Nikola Milenkovic,21,Serbia,Difensore,Difensore centrale,ACF Fiorentina,25000000,46212,,
+406625,Lautaro Martínez,21,Argentina,Attaccante,Punta centrale,FC Internazionale,25000000,1044496,38143,
+372711,Amine Harit,21,Marocco,Centrocampista,Trequartista,FC Schalke 04,25000000,807422,175407,87675
+357885,Pablo Fornals,22,Spagna,Centrocampista,Trequartista,Villarreal CF,25000000,41119,,12388
+354361,André Zambo Anguissa,23,Camerun,Centrocampista,Mediano,FC Fulham,25000000,69627,,
+353948,Lucas Tousart,21,Francia,Centrocampista,Mediano,Olympique Lione,25000000,91013,5282,44726
+350219,Fabián Ruiz,22,Spagna,Centrocampista,Centrale,SSC Napoli,25000000,219725,,52115
+343052,Nicolas Pépé,23,Costa d'Avorio,Attaccante,Ala destra,LOSC Lilla,25000000,47899,,
+283130,Moussa Marega,27,Mali,Attaccante,Seconda punta,FC Porto,25000000,160511,,17783
+282388,Giovanni Simeone,23,Argentina,Attaccante,Punta centrale,ACF Fiorentina,25000000,374595,51428,208331
+264956,Jean-Kévin Augustin,21,Francia,Attaccante,Punta centrale,RasenBallsport Lipsia,25000000,258623,32698,37797
+262980,Jefferson Lerma,24,Colombia,Centrocampista,Mediano,AFC Bournemouth,25000000,46091,,6447
+258626,Talisca,24,Brasile,Centrocampista,Trequartista,Guangzhou Evergrande Taobao,25000000,566183,,
+255755,Alex Telles,25,Brasile,Difensore,Terzino sinistro,FC Porto,25000000,751898,146669,
+229005,Abdou Diallo,22,Francia,Difensore,Difensore centrale,Borussia Dortmund,25000000,,,
+228433,Wendell,25,Brasile,Difensore,Terzino sinistro,Bayer 04 Leverkusen,25000000,75640,5311,2342
+221316,Lucas Vázquez,27,Spagna,Attaccante,Ala destra,Real Madrid CF,25000000,7136164,2709217,1047135
+200056,Elseid Hysaj,24,Albania,Difensore,Terzino destro,SSC Napoli,25000000,218212,,
+199248,Bryan Cristante,23,Italia,Centrocampista,Centrale,AS Roma,25000000,146485,,112823
+197470,Mattia Caldara,24,Italia,Difensore,Difensore centrale,AC Milan,25000000,479254,,
+196792,Julian Weigl,23,Germania,Centrocampista,Mediano,Borussia Dortmund,25000000,559353,209683,143274
+193082,Alejandro Grimaldo,23,Spagna,Difensore,Terzino sinistro,Benfica Lisbona,25000000,313722,37454,83393
+192765,Ben Davies,25,Galles,Difensore,Terzino sinistro,Tottenham Hotspur,25000000,225142,,176193
+192735,Stanislav Lobotka,24,Slovacchia,Centrocampista,Mediano,Celta de Vigo,25000000,24223,,
+184573,Victor Lindelöf,24,Svezia,Difensore,Difensore centrale,Manchester United,25000000,1118917,62300,249234
+182894,Jean-Philippe Gbamin,23,Costa d'Avorio,Centrocampista,Mediano,1.FSV Magonza 05,25000000,17104,2613,422342
+177476,Nathan Aké,23,Olanda,Difensore,Difensore centrale,AFC Bournemouth,25000000,650814,363958,293063
+165895,Matteo Politano,25,Italia,Attaccante,Ala destra,FC Internazionale,25000000,267371,22124,17595
+143812,Matías Vecino,27,Uruguay,Centrocampista,Centrale,FC Internazionale,25000000,228512,29893,47969
+131978,Ross Barkley,25,Inghilterra,Centrocampista,Trequartista,Chelsea FC,25000000,689678,,489651
+130360,Simone Verdi,26,Italia,Attaccante,Ala destra,SSC Napoli,25000000,132188,,
+129588,Dennis Praet,24,Belgio,Centrocampista,Centrale,UC Sampdoria,25000000,82155,120655,70680
+126656,Faouzi Ghoulam,27,Algeria,Difensore,Terzino sinistro,SSC Napoli,25000000,585066,,1540606
+124502,Matthias Ginter,24,Germania,Difensore,Difensore centrale,Borussia Mönchengladbach,25000000,331649,261335,110829
+111078,Emil Forsberg,27,Svezia,Attaccante,Ala sinistra,RasenBallsport Lipsia,25000000,121510,,15826
+106987,Marcel Sabitzer,24,Austria,Attaccante,Ala destra,RasenBallsport Lipsia,25000000,71678,21555,
+102226,Thorgan Hazard,25,Belgio,Attaccante,Ala sinistra,Borussia Mönchengladbach,25000000,457000,,271127
+100986,Thomas Meunier,27,Belgio,Difensore,Terzino destro,FC Paris Saint-Germain,25000000,851612,128650,306384
+88590,Shkodran Mustafi,26,Germania,Difensore,Difensore centrale,FC Arsenal,25000000,1246455,979694,689524
+76061,Sime Vrsaljko,26,Croazia,Difensore,Terzino destro,FC Internazionale,25000000,627490,,26098
+72047,Iago Aspas,31,Spagna,Attaccante,Punta centrale,Celta de Vigo,25000000,184494,,262502
+67082,Vitolo,29,Spagna,Attaccante,Ala sinistra,Atlético de Madrid,25000000,256149,37024,148078
+65278,Pedro,31,Spagna,Attaccante,Ala sinistra,Chelsea FC,25000000,5480482,5348928,6606
+59344,Asier Illarramendi,28,Spagna,Centrocampista,Mediano,Real Sociedad,25000000,714661,123301,418659
+51152,Aleksandar Mitrovic,24,Serbia,Attaccante,Punta centrale,FC Fulham,25000000,82406,52436,
+46741,David Luiz,31,Brasile,Difensore,Difensore centrale,Chelsea FC,25000000,18471638,25090978,8754302
+41384,Marko Arnautovic,29,Austria,Attaccante,Punta centrale,West Ham United,25000000,244944,602756,
+37666,Arturo Vidal,31,Cile,Centrocampista,Centrale,FC Barcellona,25000000,8064479,2096246,4109978
+29401,Sami Khedira,31,Germania,Centrocampista,Centrale,Juventus FC,25000000,5108477,6663056,352212
+28396,Edin Dzeko,32,Bosnia-Erzegovina,Attaccante,Punta centrale,AS Roma,25000000,1386548,1994556,1537324
+27992,Luka Modric,33,Croazia,Centrocampista,Centrale,Real Madrid CF,25000000,16413351,8119011,861716
+8806,Cesc Fàbregas,31,Spagna,Centrocampista,Centrale,Chelsea FC,25000000,10345235,7044992,9739920
+141050,Danilo Pereira,27,Portogallo,Centrocampista,Mediano,FC Porto,24000000,298375,,
+61253,José Callejón,31,Spagna,Attaccante,Ala destra,SSC Napoli,24000000,395728,,830724

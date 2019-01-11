@@ -506,10 +506,10 @@ Queste saranno lasciate separate perché misurano dimensioni diverse dell’inte
                             L’altro pubblico a cui questo indice si rivolge è proprio quello di tifosi e appassionati che possono essere curiosi rispetto alla popolarità, magari anche in una specifica nazione, di un giocatore.
                         </div>
                         
-                        <h2>Dati</h2>
+                        
+                        <h2>Scraping dei dati</h2>
                         <hr>
                         <div>
-                            <h3>Scraping dei dati</h3>
                             <p>                            
                                 Al fine di costruire il dataset per il nostro studio abbiamo utilizzato tecniche di “web scraping” e ci siamo serviti dei pacchetti <i>Selenium</i> e <i>bs4</i> nel linguaggio di Python.
                             </p>                    
@@ -520,7 +520,7 @@ Queste saranno lasciate separate perché misurano dimensioni diverse dell’inte
                             Per cercare sul web le informazioni per noi interessanti abbiamo creato una variabile chiamata <i>nome_chiave</i> nella quale è riportato per la maggior parte dei giocatori il cognome, ma per alcuni sia nome che cognome nel caso di possibili problemi di omonimia, come ad esempio Douglas Costa e Diego Costa. Nonostante ciò, dopo aver raccolto i dati li abbiamo controllati e abbiamo dovuto correggerne alcuni manualmente, come ad esempio Neuer nelle riviste tedesche, dato che “neuer” in tedesco significa “nuovo”, fattore che aveva reso distorto il numero di risultati. Un altro caso particolare è quello di Dembele che, per problemi di omonimia, è stato cercato nei diversi stati anche con il nome della squadra (Barcellona) tradotto nelle diverse lingue, tranne in Francia dove egli viene spesso citato chiamandolo anche per nome.
                             </p>                    
 
-                                    <b>Media</b>
+                                    <h3>Media</h3>
                                     
                                     <p> Relativamente alla raccolta dei dati riguardanti gli articoli sui giornali abbiamo incontrato delle difficoltà dovute al malfunzionamento dell’opzione “cerca” all’interno di molti siti e quindi ci siamo serviti di Google per poter contare gli articoli in essi contenuti grazie all’opzione “site:” che permette di ottenere solo risultati trovati all’interno del sito indicato dopo i due punti. Gli articoli non sono stati considerati in un periodo di tempo ristretto, poiché la nostra idea è che la popolarità si costruisca nel tempo e quindi sia giusto considerarla nella sua totalità. 
                                     </p>                    
@@ -529,19 +529,19 @@ Queste saranno lasciate separate perché misurano dimensioni diverse dell’inte
                                     <p>Nella sezione dei <i>media</i> abbiamo considerato tre giornali per ogni nazione poiché ci aspettavamo che in ognuna si parlasse maggiormente dei giocatori appartenenti alle squadre nel campionato di quella nazione, oltre che di quelli con valore di mercato e prestazioni più alti in assoluto, e tre riviste di stampo più “internazionale”. Non tutte sono vere e proprie riviste, alcune, come ad esempio Sky ed Eurosport, sono reti televisive che però pubblicano sul loro sito web degli articoli. Ci siamo concentrati su riviste che pubblicano articoli quotidianamente o al più settimanalmente, in quanto ne avevamo trovate alcune mensili prettamente calcistiche che, tuttavia, risultavano problematiche da trattare per il numero troppo basso di articoli su molti dei giocatori presi in considerazione nel nostro studio.
                                     </p>                    
 
-                                    <b>Social</b>
+                                    <h3>Social</h3>
                                                         
                                     <p>Per la sezione <i>social</i> abbiamo ottenuto il conteggio dei follower direttamente dai siti dei tre social network considerati, mentre per ottenere la media dei likes nelle prime 10 foto di Instagram abbiamo considerato il sito <a href='https://web.stagram.com/'>Webstagram</a> dal quale era più agevole avere accesso a tali dati. Infine il numero di post contenenti gli hashtag con il nome dei giocatori è stato preso direttamente da Instagram. 
                                     </p>                    
                                     <p>Il numero di follower corrisponde bene alla nostra idea di popolarità che si costruisce nel tempo, dato che i seguaci tendenzialmente aumentano e non diminuiscono quasi mai, anche nel caso in cui diminuisca l’attività sui social del giocatore o nel caso in cui si ritiri, perché i suoi follower tendenzialmente continueranno a seguirlo. Ad esempio, nonostante David Beckham si sia ritirato nel 2013, nel 2015 è risultato essere la persona più popolare su Instagram fino a quel momento (<a href='https://www.researchgate.net/publication/284174394_Score_a_tweet_and_post_a_goal_Social_media_recipes_for_sports_stars'>vai all’articolo</a>).
                                     </p>                    
 
-                                    <b>Web</b>
+                                    <h3>Web</h3>
 
                                     <p>Le <i>hits di google</i> sono state registrate direttamente da Google e non riguardano un periodo limitato di tempo, mentre le visualizzazioni delle pagine wikipedia sono state registrate dalle statistiche riguardanti le pagine del sito <a href='https://en.wikipedia.org/wiki/Main_Page'>en.wikipedia</a>. I dati raccolti su Wikipedia riguardano le ricerche nel periodo dall’1 /1/2018 al 20/12/2018 dato che i dati sono disponibili solo dal 2015 e non volevamo che le proporzioni tra i più vecchi e i più giovani fossero compromesse dal fatto che i dati fossero raccolti su un periodo di tempo ristretto. Grazie a Wikipedia ci siamo resi conto dei problemi di omonimia, dato che se sul sito si cerca un nome che non rimanda ad una pagina univoca Wikipedia presenta tutte le possibili opzioni, come si può vedere ai seguenti link riguardanti <a href='https://en.wikipedia.org/wiki/Pedro_Rodr%C3%ADguez'><i>Pedro Rodriguez</i></a> e <a href='https://en.wikipedia.org/wiki/Mati%C4%87'><i>Matić</i></a>.
                                     </p>                    
 
-                                    <b>Nota sul web scraping</b>
+                                    <h3>Nota sul web scraping</h3>
 
                                     <p>Il <i>web scraping</i> è uno strumento con grandi potenzialità che però non può prescindere da un “controllo umano” di verifica dei dati, grazie ad analisi descrittive e conoscenze a priori che permettano di identificare problemi nei dati raccolti. Ad esempio l’identificazione di dati anomali (troppo grandi o troppo piccoli) e la loro correzione può avvenire solo attraverso un controllo “umano” dei dati anomali successivo alla loro raccolta.
                                     </p>                    
@@ -617,6 +617,7 @@ Queste saranno lasciate separate perché misurano dimensioni diverse dell’inte
                     </div>
 
                     <h2>Spunti per ricerche future</h2>
+                    <hr>
                     <div>
                         <p>Sfruttando la continua evoluzione dei dati si potrebbe ripetere il nostro studio, ad esempio trimestralmente, al fine di calcolare un indice che evolva nel tempo.
                         <\p>

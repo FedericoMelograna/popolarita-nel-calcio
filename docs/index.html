@@ -493,6 +493,130 @@ Queste saranno lasciate separate perché misurano dimensioni diverse dell’inte
                     <div>
                         <h2>Metodologia</h2>
                         <hr>
+                        
+                        <h2>Obiettivo</h2>
+                            <p>
+                            Il nostro obiettivo è la creazione di un indice che misuri la popolarità dei giocatori di calcio in funzione del loro seguito sui social, della loro popolarità su giornali nazionali e internazionali, della quantità di materiale presente sul web che li riguardi e del numero di ricerche effettuate su di loro su Wikipedia. Questi diversi aspetti saranno riassunti in tre ambiti: <i>social</i>, <i>media</i> e <i>web</i>. 
+                            </p>                    
+                            <p>
+                            Il nostro indice potrebbe essere utile alle società calcistiche interessate a comprare giocatori per espandere la popolarità del club in modo da avere un ritorno economico in termini di sponsor e merchandising. L’acquisto di un giocatore molto popolare, inoltre, offre ai tifosi un motivo in più per andare allo stadio, il che si riflette in ulteriori entrate.
+                            </p>                    
+                            <p>
+                            L’altro pubblico a cui questo indice si rivolge è proprio quello di tifosi e appassionati che possono essere curiosi rispetto alla popolarità, magari anche in una specifica nazione, di un giocatore.
+
+                        <h2>Dati</h2>
+
+                            <h3>Scraping dei dati</h3>
+                            <p>                            
+                                Al fine di costruire il dataset per il nostro studio abbiamo utilizzato tecniche di “web scraping” e ci siamo serviti dei pacchetti <i>Selenium</i> e <i>bs4</i> nel linguaggio di Python.
+                            </p>                    
+                            <p>
+                            Il nostro punto di partenza è stato scaricare i nomi dei 300 giocatori ai quali l’algoritmo di  <a href='https://www.transfermarkt.it/'><i>Transfermarkt</i></a> ha assegnato valore di mercato più alto in data 1 Dicembre 2018 e su di essi sono stati raccolti tutti i dati per la costruzione dell’indice di popolarità. Da tale sito sono stati scaricati anche i dati riguardanti età, ruolo, squadra, nazione e valore di mercato per tutti questi giocatori, oltre a tutti le misure riguardanti le prestazioni, cioè presenze, goal ed assist.
+                            </p>                    
+                            <p>
+                            Per cercare sul web le informazioni per noi interessanti abbiamo creato una variabile chiamata <i>nome_chiave</i> nella quale è riportato per la maggior parte dei giocatori il cognome, ma per alcuni sia nome che cognome nel caso di possibili problemi di omonimia, come ad esempio Douglas Costa e Diego Costa. Nonostante ciò, dopo aver raccolto i dati li abbiamo controllati e abbiamo dovuto correggerne alcuni manualmente, come ad esempio Neuer nelle riviste tedesche, dato che “neuer” in tedesco significa “nuovo”, fattore che aveva reso distorto il numero di risultati. Un altro caso particolare è quello di Dembele che, per problemi di omonimia, è stato cercato nei diversi stati anche con il nome della squadra (Barcellona) tradotto nelle diverse lingue, tranne in Francia dove egli viene spesso citato chiamandolo anche per nome.
+                            </p>                    
+
+                                    <b>Media</b>
+                                    
+                                    <p> Relativamente alla raccolta dei dati riguardanti gli articoli sui giornali abbiamo incontrato delle difficoltà dovute al malfunzionamento dell’opzione “cerca” all’interno di molti siti e quindi ci siamo serviti di Google per poter contare gli articoli in essi contenuti grazie all’opzione “site:” che permette di ottenere solo risultati trovati all’interno del sito indicato dopo i due punti. Gli articoli non sono stati considerati in un periodo di tempo ristretto, poiché la nostra idea è che la popolarità si costruisca nel tempo e quindi sia giusto considerarla nella sua totalità. 
+                                    </p>                    
+                                    <p>L’utilizzo di Google ha risolto anche il problema degli accenti presenti nei nomi dei giocatori, dato che tale motore di ricerca non è “accent sensitive”. Il problema è rimasto per gli altri siti, per i quali abbiamo dovuto correggere a mano i nomi chiave con i giusti accenti, ad esempio per il giornale spagnolo Marca abbiamo fatto attenzione alla correzione delle “ñ”.
+                                    </p>                    
+                                    <p>Nella sezione dei <i>media</i> abbiamo considerato tre giornali per ogni nazione poiché ci aspettavamo che in ognuna si parlasse maggiormente dei giocatori appartenenti alle squadre nel campionato di quella nazione, oltre che di quelli con valore di mercato e prestazioni più alti in assoluto, e tre riviste di stampo più “internazionale”. Non tutte sono vere e proprie riviste, alcune, come ad esempio Sky ed Eurosport, sono reti televisive che però pubblicano sul loro sito web degli articoli. Ci siamo concentrati su riviste che pubblicano articoli quotidianamente o al più settimanalmente, in quanto ne avevamo trovate alcune mensili prettamente calcistiche che, tuttavia, risultavano problematiche da trattare per il numero troppo basso di articoli su molti dei giocatori presi in considerazione nel nostro studio.
+                                    </p>                    
+
+                                    <b>Social</b>
+                                                        
+                                    <p>Per la sezione <i>social</i> abbiamo ottenuto il conteggio dei follower direttamente dai siti dei tre social network considerati, mentre per ottenere la media dei likes nelle prime 10 foto di Instagram abbiamo considerato il sito <a href='https://web.stagram.com/'>Webstagram</a> dal quale era più agevole avere accesso a tali dati. Infine il numero di post contenenti gli hashtag con il nome dei giocatori è stato preso direttamente da Instagram. 
+                                    </p>                    
+                                    <p>Il numero di follower corrisponde bene alla nostra idea di popolarità che si costruisce nel tempo, dato che i seguaci tendenzialmente aumentano e non diminuiscono quasi mai, anche nel caso in cui diminuisca l’attività sui social del giocatore o nel caso in cui si ritiri, perché i suoi follower tendenzialmente continueranno a seguirlo. Ad esempio, nonostante David Beckham si sia ritirato nel 2013, nel 2015 è risultato essere la persona più popolare su Instagram fino a quel momento (<a href='https://www.researchgate.net/publication/284174394_Score_a_tweet_and_post_a_goal_Social_media_recipes_for_sports_stars'>vai all’articolo</a>).
+                                    </p>                    
+
+                                    <b>Web</b>
+
+                                    <p>Le <i>hits di google</i> sono state registrate direttamente da Google e non riguardano un periodo limitato di tempo, mentre le visualizzazioni delle pagine wikipedia sono state registrate dalle statistiche riguardanti le pagine del sito <a href='https://en.wikipedia.org/wiki/Main_Page'>en.wikipedia</a>. I dati raccolti su Wikipedia riguardano le ricerche nel periodo dall’1 /1/2018 al 20/12/2018 dato che i dati sono disponibili solo dal 2015 e non volevamo che le proporzioni tra i più vecchi e i più giovani fossero compromesse dal fatto che i dati fossero raccolti su un periodo di tempo ristretto. Grazie a Wikipedia ci siamo resi conto dei problemi di omonimia, dato che se sul sito si cerca un nome che non rimanda ad una pagina univoca Wikipedia presenta tutte le possibili opzioni, come si può vedere ai seguenti link riguardanti <a href='https://en.wikipedia.org/wiki/Pedro_Rodr%C3%ADguez'><i>Pedro Rodriguez</i></a> e <a href='https://en.wikipedia.org/wiki/Mati%C4%87'><i>Matić</i></a>.
+                                    </p>                    
+
+                                    <b>Nota sul web scraping</b>
+
+                                    <p>Il <i>web scraping</i> è uno strumento con grandi potenzialità che però non può prescindere da un “controllo umano” di verifica dei dati, grazie ad analisi descrittive e conoscenze a priori che permettano di identificare problemi nei dati raccolti. Ad esempio l’identificazione di dati anomali (troppo grandi o troppo piccoli) e la loro correzione può avvenire solo attraverso un controllo “umano” dei dati anomali successivo alla loro raccolta.
+                                    </p>                    
+                                    <p>Un’altra potenziale problematica è quella della privacy in quanto prendendo dati dal web non siamo sicuri che tali dati siano pubblici e non solo pubblicati. Un esempio ne è il sito del <a href='http://www.corrieredellosport.it/scheda-calciatori/index.html?season=2018&competition=21&team=128&player=147297'><i>Corriere dello Sport</i></a> che pubblica i dati di Opta Sport. Fare <i>scraping</i> su questi dati sarebbe illegale, in quanto Opta è una società il cui patrimonio sono proprio i dati sportivi: questo fatto ci ha fatto notare che bisogna conoscere le fonti dei dati e la privacy sui dati in questione.
+                                    </p>                    
+                                    <p>La riproducibilità di queste analisi riguarda solo il lavoro svolto sui dati già raccolti, perché a causa dell’evoluzione praticamente istantanea dei dati trattati la parte di <i>web scraping</i> fornirebbe dati diversi e più aggiornati. 
+                                    </p>                    
+                                    
+                        <h2>Metodologie statistiche</h2>
+
+                            <h3>Rimozione unità statistiche</h3>
+                                                       
+                                    <p>Una volta raccolti i dati abbiamo costruito una variabile che indicasse la nazione della squadra attuale di ogni giocatore e abbiamo deciso di eliminare quelli non appartenenti ai 5 campionati principali europei, cioè quelli che giocano in Cina, Portogallo e Olanda, perché erano pochi, e la somma del loro valore non era significativa se confrontata con quella degli altri stati; inoltre sarebbe stato complicato raccogliere dati dei <i>media</i> di quelle nazioni, soprattutto per la Cina.
+                                    </p>                    
+                                    <p>Abbiamo deciso di rimuovere anche un secondo giocatore di nome Paulinho (il primo gioca in Cina, per cui era già stato rimosso) perché le misure che lo riguardavano erano tutte troppo alte a causa dell’omonimia. Altri giocatori che sono stati tolti dal dataset sono Abdou Diallo, Danny Rose, Rodrigo Hernández e Sergio Busquets, i quali non possiedono un profilo Instagram e nemmeno un profilo Twitter e Facebook (tranne Sergio Busquets che ha un profilo Facebook, ma non riconosciuto come ufficiale) e la misura della loro popolarità sarebbe stata problematica per la presenza di troppi dati mancanti.
+                                    </p>                    
+
+                            <h3>Imputazione dei missing</h3>
+
+                                    <p>Per quanto riguarda i due social non posseduti dalla totalità delle unità statistiche abbiamo deciso di imputare i dati mancanti di Facebook tramite una regressione basata sulla variabile ottenuta per il profilo di Instagram, mentre per Twitter abbiamo utilizzato come regressori le due variabili precedenti. Il motivo per cui abbiamo imputato questi dati invece di registrarli come 0 è che visto che l’indice di popolarità finale è costruito pesando le diverse misure, un giocatore privo di uno o due social sarebbe stato molto penalizzato. In questo modo invece abbiamo assegnato per i social mancanti dei valori in linea con gli altri posseduti dai giocatori, in modo da non svantaggiare chi non li possedesse tutti, come ad esempio Messi che pur non avendo Twitter è molto popolare.
+                                    </p>                    
+                                    
+                        
+                            <h3>Costruzione dell’indice</h3>
+                    
+                                    <p>Prima di costruire l’indice finale di popolarità abbiamo sintetizzato le diverse dimensioni considerate in modo da ottenere una sola misura per i <i>social</i>, una per i <i>media</i>, una per Google e una per Wikipedia.
+                                    </p>                    
+                                    <p>Per quanto riguarda i <i>social</i> abbiamo considerato prima le tre variabili di Instagram, abbiamo applicato una trasformazione logaritmica, le abbiamo normalizzate e ne abbiamo fatto una media. Dopodichè abbiamo applicato le stesse due trasformazioni (log e normalizzazione) alle variabili dei follower di Facebook e dei follower di Twitter e ne abbiamo fatto una media con la misura finale ottenuta per Instagram, ottenendo la misura finale <i>social</i>.
+                                    </p>                    
+                                    <p>Per quanto riguarda i <i>media</i> abbiamo applicato il logaritmo e normalizzato tutte le variabili considerate (18 giornali) e abbiamo calcolato per ogni nazione e per la dimensione internazionale una media delle misure ottenute per i tre giornali. Queste sei misure sono state utilizzate per la costruzione dei boxplot. La misura finale <i>media</i> è stata ottenuta come media di queste misure nazionali e di quella internazionale.
+                                    </p>                    
+                                    <p>La dimensione del <i>web</i>, cioè le variabili di Google e Wikipedia sono state solo normalizzate, dopo aver applicato il logaritmo.
+                                    </p>                    
+                                    <p>La trasformazione logaritmica è stata applicata per rendere simmetriche le distribuzioni delle nostre variabili che erano, invece, fortemente asimmetriche, e per ridurre l’effetto degli outliers.
+                                    </p>                    
+                                    
+                                    <p>L’indice finale di popolarità è costituito da una media pesata tra le quattro dimensioni finali:
+
+                                        
+                                        IPOP=\frac{(social\cdot 3+media\cdot 6+google+wikipedia)}{11}
+                                    
+                        
+                                    </p>                    
+                                    <p>Abbiamo pesato maggiormente la dimensione dei giornali poiché essa rispecchia una popolarità più legata a performance sportive e a questioni di calciomercato rispetto alle altre misure considerate. Il numero di follower sui social ad esempio permette di misurare una popolarità più generica, che comprenda anche persone non particolarmente interessate al calcio, ma magari interessate ad alcuni calciatori per il loro ruolo di “influencer” o per questioni legate al gossip. Tali persone comportano meno riscontri economici legati al merchandising, ai biglietti dello stadio o agli abbonamenti televisivi, quindi dovrebbero pesare di meno nella costruzione dell’indice dato che esso è costruito per essere d’aiuto per le squadre che vogliono investire in tale direzione.
+                                    </p>                    
+
+                            <h3>Test di significatività</h3> 
+
+
+                        
+                        
+                            <h3>Grafici</h3> 
+                                                        
+                                    <p>Per la rappresentazione grafica abbiamo utilizzato <a href='https://www.tableau.com/it-it'>Tableau</a>, che ci ha permesso di realizzare grafici interattivi. 
+                                    </p>                    
+                                    <p>Nel costruire i bubble charts abbiamo usato il log del valore di mercato per riuscire a identificare meglio le diverse fasce di prezzo. Proprio nella costruzione di tali grafici  e in alcuni scatterplot ci siamo accorti di come Paulinho presentasse dei valori anomali rispetto a tutti gli altri e abbiamo deciso di escluderlo dalle analisi come già accennato.
+                                    </p>                    
+                                    <p>Nei grafici in cui abbiamo utilizzato i dati su goal e assist abbiamo considerato quelli di tutta la carriera dei giocatori, perché l’ultimo anno potrebbe essere poco significativo per giocatori che hanno subito infortuni e per coloro che hanno alle spalle una lunga carriera nella quale sono riusciti a mantenere un alto livello di performance nel tempo, cosa che probabilmente ha contribuito a renderli famosi, come ad esempio Messi e Ronaldo.
+                                    </p>                    
+
+                    <h2>Ispirazioni</h2>
+                        <p>L’ispirazione per questo lavoro è nata principalmente da una passione per il mondo del calcio e dalla lettura del sito Social Media Soccer, il quale si propone un indice di popolarità dei giocatori ma senza renderlo disponibile sul web.
+                        <\p>
+                        <p>Inoltre dalla lettura di riviste quali “La Gazzetta dello Sport”, “Calcio e finanza” o “Il sole 24 ore”, siamo stati colpiti dalle notizie riguardanti l’acquisto di Cristiano Ronaldo, scelta che indica un tentativo di accrescere la popolarità del club, in vista anche di conseguenze a livello economico, come il rinnovo dell’Adidas. Tutto ciò mostra come la scelta di un giocatore possa essere dettata da strategie di marketing oltre che calcistiche, per le quali misurare la popolarità di un giocatore (a livello nazionale e internazionale) potrebbe essere molto utile.
+                        <\p>
+                        <p>Infine dalla lettura di articoli scientifici riguardanti il mondo del calcio abbiamo constatato come, per misurare la popolarità, siano usati solo alcuni dei fattori da noi identificati, cioè i social, Google e Wikipedia e spesso non tutti insieme, come il seguente <a href='https://www.sciencedirect.com/science/article/abs/pii/S144135231300096X'><i>articolo</i></a> che utilizza le hit di google. Abbiamo pensato pensato quindi di unire queste misure e di aggiungerne anche altre provenienti dai giornali, le quali sono in grado di cogliere aspetti più legati a performance sportive e a questioni di calciomercato, come detto in precedenza.
+                        <\p>
+
+                    <h2>Spunti per ricerche future</h2>
+                        <p>Sfruttando la continua evoluzione dei dati si potrebbe ripetere il nostro studio, ad esempio trimestralmente, al fine di calcolare un indice che evolva nel tempo.
+                        <\p>
+                        <p>Un’altra possibile evoluzione di questo lavoro consiste nel raccogliere i dati da YouTube: nel nostro lavoro per ora non abbiamo considerato tale misura nella sezione dei social perché sono troppo pochi i giocatori con un canale personale; tuttavia, avendo ulteriore tempo a disposizione, si potrebbero raccogliere i dati per calcolare la media delle visualizzazioni in tutti i video nei quali compare il nome di un certo giocatore.
+                        <\p>
+                        <hr><hr>
+                        Il codice è disponibile al seguente <a href='https://github.com/fabiomarigo7/popolarita-nel-calcio/tree/master/source'>link</a>.
+                        
+                        
+                        
                     </div>
                 </div>
             </div>

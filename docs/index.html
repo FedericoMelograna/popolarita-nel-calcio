@@ -492,9 +492,10 @@ Queste saranno lasciate separate perché misurano dimensioni diverse dell’inte
                 <div class='c2'>
                     <div>
                         <h2>Metodologia</h2>
-                        <hr>
-                        
+                     
+                        <div>     
                         <h2>Obiettivo</h2>
+                        <hr>
                             <p>
                             Il nostro obiettivo è la creazione di un indice che misuri la popolarità dei giocatori di calcio in funzione del loro seguito sui social, della loro popolarità su giornali nazionali e internazionali, della quantità di materiale presente sul web che li riguardi e del numero di ricerche effettuate su di loro su Wikipedia. Questi diversi aspetti saranno riassunti in tre ambiti: <i>social</i>, <i>media</i> e <i>web</i>. 
                             </p>                    
@@ -503,9 +504,11 @@ Queste saranno lasciate separate perché misurano dimensioni diverse dell’inte
                             </p>                    
                             <p>
                             L’altro pubblico a cui questo indice si rivolge è proprio quello di tifosi e appassionati che possono essere curiosi rispetto alla popolarità, magari anche in una specifica nazione, di un giocatore.
-
+                        </div>
+                        
                         <h2>Dati</h2>
-
+                        <hr>
+                        <div>
                             <h3>Scraping dei dati</h3>
                             <p>                            
                                 Al fine di costruire il dataset per il nostro studio abbiamo utilizzato tecniche di “web scraping” e ci siamo serviti dei pacchetti <i>Selenium</i> e <i>bs4</i> nel linguaggio di Python.
@@ -545,10 +548,12 @@ Queste saranno lasciate separate perché misurano dimensioni diverse dell’inte
                                     <p>Un’altra potenziale problematica è quella della privacy in quanto prendendo dati dal web non siamo sicuri che tali dati siano pubblici e non solo pubblicati. Un esempio ne è il sito del <a href='http://www.corrieredellosport.it/scheda-calciatori/index.html?season=2018&competition=21&team=128&player=147297'><i>Corriere dello Sport</i></a> che pubblica i dati di Opta Sport. Fare <i>scraping</i> su questi dati sarebbe illegale, in quanto Opta è una società il cui patrimonio sono proprio i dati sportivi: questo fatto ci ha fatto notare che bisogna conoscere le fonti dei dati e la privacy sui dati in questione.
                                     </p>                    
                                     <p>La riproducibilità di queste analisi riguarda solo il lavoro svolto sui dati già raccolti, perché a causa dell’evoluzione praticamente istantanea dei dati trattati la parte di <i>web scraping</i> fornirebbe dati diversi e più aggiornati. 
-                                    </p>                    
+                                    </p>
+                        </div>
                                     
                         <h2>Metodologie statistiche</h2>
-
+                        <hr>
+                        <div>
                             <h3>Rimozione unità statistiche</h3>
                                                        
                                     <p>Una volta raccolti i dati abbiamo costruito una variabile che indicasse la nazione della squadra attuale di ogni giocatore e abbiamo deciso di eliminare quelli non appartenenti ai 5 campionati principali europei, cioè quelli che giocano in Cina, Portogallo e Olanda, perché erano pochi, e la somma del loro valore non era significativa se confrontata con quella degli altri stati; inoltre sarebbe stato complicato raccogliere dati dei <i>media</i> di quelle nazioni, soprattutto per la Cina.
@@ -598,21 +603,28 @@ Queste saranno lasciate separate perché misurano dimensioni diverse dell’inte
                                     </p>                    
                                     <p>Nei grafici in cui abbiamo utilizzato i dati su goal e assist abbiamo considerato quelli di tutta la carriera dei giocatori, perché l’ultimo anno potrebbe essere poco significativo per giocatori che hanno subito infortuni e per coloro che hanno alle spalle una lunga carriera nella quale sono riusciti a mantenere un alto livello di performance nel tempo, cosa che probabilmente ha contribuito a renderli famosi, come ad esempio Messi e Ronaldo.
                                     </p>                    
-
+                    </div>
+             
                     <h2>Ispirazioni</h2>
+                    <hr>
+                    <div>                       
                         <p>L’ispirazione per questo lavoro è nata principalmente da una passione per il mondo del calcio e dalla lettura del sito Social Media Soccer, il quale si propone un indice di popolarità dei giocatori ma senza renderlo disponibile sul web.
                         <\p>
                         <p>Inoltre dalla lettura di riviste quali “La Gazzetta dello Sport”, “Calcio e finanza” o “Il sole 24 ore”, siamo stati colpiti dalle notizie riguardanti l’acquisto di Cristiano Ronaldo, scelta che indica un tentativo di accrescere la popolarità del club, in vista anche di conseguenze a livello economico, come il rinnovo dell’Adidas. Tutto ciò mostra come la scelta di un giocatore possa essere dettata da strategie di marketing oltre che calcistiche, per le quali misurare la popolarità di un giocatore (a livello nazionale e internazionale) potrebbe essere molto utile.
                         <\p>
                         <p>Infine dalla lettura di articoli scientifici riguardanti il mondo del calcio abbiamo constatato come, per misurare la popolarità, siano usati solo alcuni dei fattori da noi identificati, cioè i social, Google e Wikipedia e spesso non tutti insieme, come il seguente <a href='https://www.sciencedirect.com/science/article/abs/pii/S144135231300096X'><i>articolo</i></a> che utilizza le hit di google. Abbiamo pensato pensato quindi di unire queste misure e di aggiungerne anche altre provenienti dai giornali, le quali sono in grado di cogliere aspetti più legati a performance sportive e a questioni di calciomercato, come detto in precedenza.
                         <\p>
+                    </div>
 
                     <h2>Spunti per ricerche future</h2>
+                    <div>
                         <p>Sfruttando la continua evoluzione dei dati si potrebbe ripetere il nostro studio, ad esempio trimestralmente, al fine di calcolare un indice che evolva nel tempo.
                         <\p>
                         <p>Un’altra possibile evoluzione di questo lavoro consiste nel raccogliere i dati da YouTube: nel nostro lavoro per ora non abbiamo considerato tale misura nella sezione dei social perché sono troppo pochi i giocatori con un canale personale; tuttavia, avendo ulteriore tempo a disposizione, si potrebbero raccogliere i dati per calcolare la media delle visualizzazioni in tutti i video nei quali compare il nome di un certo giocatore.
                         <\p>
-                        <hr><hr>
+                     </div>                       
+                        
+                        <hr>
                         Il codice è disponibile al seguente <a href='https://github.com/fabiomarigo7/popolarita-nel-calcio/tree/master/source'>link</a>.
                         
                         

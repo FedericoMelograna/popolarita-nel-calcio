@@ -1,5 +1,8 @@
-<html>
+<!DOCTYPE html>
+<html lang="it">
   <head>
+    <meta charset="UTF-8">
+    <title>Hall of Hame</title> 
     <!-- SCRIPT JS -->
     <script type="text/javascript" src="js/article-methodology.js"></script>
     <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
@@ -683,18 +686,18 @@
             <p>Per quanto riguarda i due social non posseduti dalla totalità delle unità statistiche abbiamo deciso di imputare i dati mancanti di Facebook tramite una regressione basata sulla variabile ottenuta per il profilo di Instagram, mentre per Twitter abbiamo utilizzato come regressori le due variabili precedenti. Il motivo per cui abbiamo imputato questi dati invece di registrarli come 0 è che visto che l’indice di popolarità finale è costruito pesando le diverse misure, un giocatore privo di uno o due social sarebbe stato molto penalizzato. In questo modo invece abbiamo assegnato per i social mancanti dei valori in linea con gli altri posseduti dai giocatori, in modo da non svantaggiare chi non li possedesse tutti, come ad esempio Messi che pur non avendo Twitter è molto popolare.
             </p>
 			<!-- GRAFICO IMPUT FACEBOOK CON INSTAGRAM -->
-            <div style='margin:auto; width: 600px'>
-              <img src='./imgs/Immagini_metodologia/Imput_FB.png'>
+            <div style='margin:auto; max-width:437px'>
+              <img style='width: 437px' src='./imgs/Immagini_metodologia/Imput_FB.png'>
             </div>
             <!-- FINE -->
 			<!-- GRAFICO IMPUT TWITTER CON INSTAGRAM -->
-            <div style='margin:auto; width: 600px'>
-              <img src='./imgs/Immagini_metodologia/Imput_TW_inst.png'>
+            <div style='margin:auto; max-width:437px'>
+              <img style='width: 437px' src='./imgs/Immagini_metodologia/Imput_TW_inst.png'>
             </div>
             <!-- FINE -->
             <!-- GRAFICO IMPUT TWITTER FACEBOOK -->
-            <div style='margin:auto; width: 600px'>
-              <img src='./imgs/Immagini_metodologia/Imput_TW_fb.png'>
+            <div style='margin:auto; max-width:437px'>
+              <img style='width: 437px' src='./imgs/Immagini_metodologia/Imput_TW_fb.png'>
             </div>
             <!-- FINE-->
             <h3>Costruzione dell’indice</h3>
@@ -708,32 +711,17 @@
             </p>
             <p>La trasformazione logaritmica è stata applicata per rendere simmetriche le distribuzioni delle nostre variabili che erano, invece, fortemente asimmetriche come si può vedere dall'istogramma, e per ridurre l’effetto degli outliers, come si può, invee, notare dagli scatterplot.
             </p>
-            <!-- GRAFICO NO LOG -->
-            <div style='margin:auto; width: 600px'>
-              <img src='./imgs/Immagini_metodologia/istogramma_google_hits.png'>
+
+            <div style='margin:auto; width: 910px; margin-top:30px;margin-bottom:30px'>
+              <img src='./imgs/Immagini_metodologia/hist_scatter.png'>
             </div>
-            <!-- FINE GRAFICO NO LOG -->
-            <!-- GRAFICO LOG -->
-            <div style='margin:auto; width: 600px'>
-              <img src='./imgs/Immagini_metodologia/istogramma_google_hits_log.png'>
-            </div>
-            <!-- FINE GRAFICO LOG -->			
-			<!-- SCATTERPLOT NO LOG -->
-            <div style='margin:auto; width: 600px'>
-              <img src='./imgs/Immagini_metodologia/scatter_inst_fb_no_log.png'>            
-			</div>
-            <!-- FINE -->
-			<!-- GRAFICO SCATTER CON LOG -->
-            <div style='margin:auto; width: 600px'>
-              <img src='./imgs/Immagini_metodologia/scatter_inst_fb_log.png'>
-            </div>
-            <!-- FINE -->
+
             <p>L’indice finale di popolarità è costituito da una media pesata tra le quattro dimensioni finali:</p>
             <div style='margin:auto;width:547'><img src='./imgs/formula.png'></div>
             <p>Abbiamo pesato maggiormente la dimensione dei giornali poiché essa rispecchia una popolarità più legata a performance sportive e a questioni di calciomercato rispetto alle altre misure considerate. Il numero di follower sui social ad esempio permette di misurare una popolarità più generica, che comprenda anche persone non particolarmente interessate al calcio, ma magari interessate ad alcuni calciatori per il loro ruolo di “influencer” o per questioni legate al gossip. Tali persone comportano meno riscontri economici legati al merchandising, ai biglietti dello stadio o agli abbonamenti televisivi, quindi dovrebbero pesare di meno nella costruzione dell’indice dato che esso è costruito per essere d’aiuto per le squadre che vogliono investire in tale direzione.
             </p>
             <h3>Test di significatività</h3>
-			<p>Dopo aver osservato una preponderanza di articoli nei giornali nazionali riguardanti i giocatori dei campionati delle rispettive nazioni, come si può vedere bene nei boxplot della sezione “Articolo”, abbiamo deciso di sottoporre a test statistici tali differenze. Abbiamo dunque svolto cinque test t, uno per ogni nazione, e ad esempio, per quanto riguarda la variabile “Italia” (media del numero di articoli nei tre giornali italiani), abbiamo confrontato la media degli articoli per i giocatori appartenenti a squadre italiane con la media degli articoli di tutti gli altri. Come si può osservare nella tabella sottostante abbiamo rifiutato tutte e cinque le ipotesi nulle (assenza di differenza) e quindi le differenze tra le medie sono risultate essere statisticamente significative.
+			<p>Dopo aver osservato una preponderanza di articoli nei giornali nazionali riguardanti i giocatori dei campionati delle rispettive nazioni, come si può vedere bene nei boxplot della sezione “Articolo”, abbiamo deciso di sottoporre a test statistici tali differenze. Abbiamo dunque svolto cinque test t, uno per ogni nazione, e ad esempio, per quanto riguarda la variabile “Italia” (media del numero di articoli nei tre giornali italiani), abbiamo confrontato la media degli articoli per i giocatori appartenenti a squadre italiane con la media degli articoli di tutti gli altri. Come si può osservare nella tabella sottostante abbiamo rifiutato tutte e cinque le ipotesi nulle (assenza di differenza) e quindi le differenze tra le medie sono risultate essere statisticamente significative. Questo conferma la tesi che nelle varie nazioni si tende a parlare maggiormente di calciatori appartenenti a squadre locali; questo effetto viene contenuto facendo la media durante la costruzione dell'indice finale.
 	            <div style='margin:auto; width: 400px'>
 				<table class='tabletext'>
 					<tr><td></td><td><b>t-statistic</b></td><td><b>p-value</b></td></tr>

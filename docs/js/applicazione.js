@@ -96,8 +96,7 @@ $(function () {
 				},
 				options: {
 					title: {
-						display: true,
-						text: 'Social Media'
+						display: false
 					},
 					legend: {
 						display: false

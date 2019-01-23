@@ -53,8 +53,8 @@ ul.horiz_menu li a,ul.horiz_menu li a:visited{color:#0F2850;text-decoration:none
 .autocomplete-suggestion{padding:10px 5px;font-size:1.2em;white-space:nowrap;overflow:hidden}
 .autocomplete-selected{background:#f0f0f0}
 .autocomplete-suggestions strong{font-weight:400;color:#39f}
-div#player_box{background:#eeefed;padding:5px;width:800px;height:520px;margin:auto;text-align:center;border-radius:5px}
-div#player_box2{height:518px;background:#fff;border:1px solid #c8c8c8;border-radius:5px}
+div#player_box{background:#eeefed;padding:5px;width:800px;height:540px;margin:auto;text-align:center;border-radius:5px}
+div#player_box2{height:538px;background:#fff;border:1px solid #c8c8c8;border-radius:5px}
 div#player_box span{border-radius:20px;color:#0F2850}
 span#nome{font-size:20pt}
 span#ruolo,span#squadra{font-size:13pt}

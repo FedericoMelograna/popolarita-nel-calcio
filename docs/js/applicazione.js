@@ -82,7 +82,7 @@ $(function () {
 			var myChart2 = new Chart(ctx2, {
 				type: 'radar',
 				data: {
-					labels: ["ITA", "SPA", "FRA", "GER", "ENG", "INT"],
+					labels: ["ITA", "SPA", "FRA", "GER", "ING", "INT"],
 					datasets: [{
 						"data": [italia, spagna, francia, germania, inghilterra, internazionale],
 						"fill": true,
